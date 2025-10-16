@@ -1,0 +1,8 @@
+{
+    "id": "osteoporose-pos-menopausa",
+    "nome": "Osteoporose Pós-Menopausa",
+    "categoria": "reumatologica",
+    "faixa": "adulto",
+    "tipo": "cronico",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Alendronato 70mg</p><p class='posologia'>1 comp/semana em jejum (bifosfonato)</p></div><div class='medicamento'><p class='dosagem'>Cálcio 600mg + Vitamina D 400UI</p><p class='posologia'>1 comp 12/12h (suplementação)</p></div><div class='medicamento'><p class='dosagem'>Raloxifeno 60mg</p><p class='posologia'>1 comp/dia (alternativa - risco cardiovascular)</p></div><div class='medicamento'><p class='dosagem'>Teriparatida 20mcg SC</p><p class='posologia'>1 aplicação/dia (osteoporose grave)</p></div><div class='alerta'><p><strong>💡 Prevenção quedas:</strong> exercícios, segurança domiciliar, correção visão</p><p><strong>📅 Monitorar:</strong> DXA a cada 2 anos, marcadores ósseos</p></div>"
+}
