@@ -1,0 +1,8 @@
+{
+    "id": "candidíase-vaginal",
+    "nome": "Candidíase Vulvovaginal",
+    "categoria": "ginecologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Fluconazol 150mg</p><p class='posologia'>1 comp dose única VO</p></div><div class='medicamento'><p class='dosagem'>Clotrimazol creme 1%</p><p class='posologia'>Aplicar intravaginal 7-14 dias</p></div><div class='medicamento'><p class='dosagem'>Miconazol óvulo 100mg</p><p class='posologia'>1 óvulo/dia por 7 dias</p></div><div class='medicamento'><p class='dosagem'>Nistatina creme 100.000UI/g</p><p class='posologia'>Aplicar topicamente 2x/dia (vulvite)</p></div><div class='alerta'><p><strong>🔔 Retornar se:</strong> sem melhora em 3 dias, recidivas frequentes, gestação</p><p><strong>💡 Medidas:</strong> roupas íntimas de algodão, evitar duchas, higiene adequada</p></div>"
+}
