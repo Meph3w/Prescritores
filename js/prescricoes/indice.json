@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:10:18.133Z",
+  "geradoEm": "2025-10-16T17:10:35.569Z",
   "geradoPor": "GitHub Actions",
-  "commit": "5ccf4104ac6286375d3b0259b07c12491e6eb428",
+  "commit": "d5e925a2459d7dbad373f32bc21090f27ce8da9a",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -224,6 +224,14 @@
       "id": "ler-dort",
       "nome": "Lesão por Esforço Repetitivo",
       "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/lupus.json",
+      "id": "lupus-eritematoso",
+      "nome": "Lúpus Eritematoso Sistêmico",
+      "categoria": "reumatologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -572,5 +580,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 71
+  "totalArquivos": 72
 }
