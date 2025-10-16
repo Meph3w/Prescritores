@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:07:32.697Z",
+  "geradoEm": "2025-10-16T17:07:47.788Z",
   "geradoPor": "GitHub Actions",
-  "commit": "80c08c252a022ab575ec1535708b63177a6ca258",
+  "commit": "123b4736856b1a66acf72797381b6f02e3844b9c",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -468,6 +468,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "urgencia/meningite-bacteriana.json",
+      "id": "meningite-bacteriana",
+      "nome": "Meningite Bacteriana Aguda",
+      "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/pancreatite-aguda.json",
       "id": "pancreatite-aguda",
       "nome": "Pancreatite Aguda",
@@ -508,5 +516,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 63
+  "totalArquivos": 64
 }
