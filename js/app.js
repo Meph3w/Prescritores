@@ -20,7 +20,7 @@ function formatarCategoria(categoria) {
         'renal': '💧 Renais',
         'oftalmologica': '👁️ Oftalmológicas',
         'neonatal': '👶 Neonatal',
-        'pediatrica': '👶 Neonatal',
+        'pediatrica': '👶 Pediatria',
         'geriatria': '🧓 Geriatria'
     };
     return categorias[categoria] || categoria;
