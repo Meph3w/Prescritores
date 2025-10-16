@@ -1,0 +1,8 @@
+{
+    "id": "dpoc-estavel-manutencao",
+    "nome": "DPOC Estável - Manutenção",
+    "categoria": "respiratoria",
+    "faixa": "adulto",
+    "tipo": "cronico",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Tiotrópio 18mcg</p><p class='posologia'>1 cápsula/dia via Handihaler (LABA)</p></div><div class='medicamento'><p class='dosagem'>Salmeterol+Fluticasona 50/250mcg</p><p class='posologia'>1 inalação 12/12h (corticoide inalatório)</p></div><div class='medicamento'><p class='dosagem'>Salbutamol 100mcg</p><p class='posologia'>2 jatos 6/6h se necessário (resgate)</p></div><div class='medicamento'><p class='dosagem'>Azitromicina 250mg</p><p class='posologia'>3x/semana (exacerbações frequentes)</p></div><div class='alerta'><p><strong>💡 Essencial:</strong> cessar tabagismo, vacinação anual, reabilitação pulmonar</p><p><strong>📅 Acompanhamento:</strong> espirometria anual, avaliação sintomas, oxigenoterapia se necessário</p></div>"
+}
