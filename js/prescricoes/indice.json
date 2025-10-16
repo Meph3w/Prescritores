@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T13:54:59.079Z",
+  "geradoEm": "2025-10-16T14:02:28.747Z",
   "geradoPor": "GitHub Actions",
-  "commit": "dd44677fc0736df13c8e2771c7649ef469f4390c",
+  "commit": "36855cce2358ad7f9590bdf6b99c81e7d06e9273",
   "arquivos": [
     {
       "caminho": "consulta/rinossinusite.json",
@@ -12,9 +12,9 @@
       "tipo": "consulta"
     },
     {
-      "caminho": "urgencia/crise-respiratoria.json",
+      "caminho": "urgencia/crise-respiratoria-aguda-asma-ped.json",
       "id": "crise-respiratoria",
-      "nome": "Crise Respiratória Aguda (Pediatria)",
+      "nome": "Crise Respiratória Aguda (ASMA)",
       "categoria": "respiratoria",
       "faixa": "pediatria",
       "tipo": "urgencia"
