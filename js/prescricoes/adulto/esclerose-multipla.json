@@ -1,0 +1,8 @@
+{
+    "id": "esclerose-multipla",
+    "nome": "Esclerose Múltipla",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Interferon beta-1a 30mcg IM</p><p class='posologia'>1x/semana (imunomodulador)</p></div><div class='medicamento'><p class='dosagem'>Glatiramer acetate 20mg SC</p><p class='posologia'>1x/dia (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Fingolimod 0,5mg</p><p class='posologia'>1 comp/dia (forma remitente-recorrente)</p></div><div class='medicamento'><p class='dosagem'>Metilprednisolona 1g IV</p><p class='posologia'>3-5 dias (surto agudo)</p></div><div class='alerta'><p><strong>💡 Abordagem:</strong> reabilitação, manejo sintomático, suporte psicológico</p><p><strong>🔍 Monitorar:</strong> ressonância, progressão incapacidade (EDSS)</p></div>"
+}
