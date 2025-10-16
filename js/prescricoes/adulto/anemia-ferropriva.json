@@ -1,0 +1,8 @@
+{
+    "id": "anemia-ferropriva",
+    "nome": "Anemia Ferropriva",
+    "categoria": "hematologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Sulfato ferroso 40mg (elementar)</p><p class='posologia'>1 comp/dia em jejum por 3-6 meses</p></div><div class='medicamento'><p class='dosagem'>Ferrous sulfate 325mg</p><p class='posologia'>1 comp/dia (65mg elementar) em jejum</p></div><div class='medicamento'><p class='dosagem'>Complexo B</p><p class='posologia'>1 comp/dia (associar para melhor absorção)</p></div><div class='medicamento'><p class='dosagem'>Ácido fólico 5mg</p><p class='posologia'>1 comp/dia (se deficiência associada)</p></div><div class='alerta'><p><strong>🔔 Investigar:</strong> perda sanguínea crônica, sangramento digestivo, menstruação excessiva</p><p><strong>💡 Orientar:</strong> tomar com suco cítrico, evitar café/chá próximo, fezes escuras</p></div>"
+}
