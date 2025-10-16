@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:22:03.266Z",
+  "geradoEm": "2025-10-16T14:22:21.143Z",
   "geradoPor": "GitHub Actions",
-  "commit": "b18c61ad1b1b10197f5a86e2983100fb19a078a8",
+  "commit": "9a9f51955bd2cc1a7a04c7d0b57e4fb590c16605",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -92,6 +92,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/pielonefrite.json",
+      "id": "pielonefrite-ambulatorial",
+      "nome": "Pielonefrite Aguda",
+      "categoria": "urologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "adulto/sinusite-aguda.json",
       "id": "sinusite-aguda",
       "nome": "Sinusite Aguda",
@@ -148,5 +156,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 18
+  "totalArquivos": 19
 }
