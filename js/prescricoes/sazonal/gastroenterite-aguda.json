@@ -1,0 +1,8 @@
+{
+    "id": "gastroenterite-aguda",
+    "nome": "Gastrointerite Aguda",
+    "categoria": "gastrointestinal",
+    "faixa": "adulto",
+    "tipo": "sazonal",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Soro de reidratação oral</p><p class='posologia'>200-400ml após cada vômito ou evacuação</p></div><div class='medicamento'><p class='dosagem'>Racecadotrilo 100mg</p><p class='posologia'>1 comp 8/8h por 3-5 dias</p></div><div class='medicamento'><p class='dosagem'>Probióticos</p><p class='posologia'>1 sachê/dia por 5-7 dias</p></div><div class='medicamento'><p class='dosagem'>Metoclopramida 10mg</p><p class='posologia'>1 comp 8/8h se vômitos</p></div><div class='alerta'><p><strong>💡 Dieta:</strong> líquidos claros, evolução gradual, evitar lácteos/gordurosos</p><p><strong>🚨 Desidratação:</strong> sede excessiva, oligúria, prostração - hidratação IV</p></div>"
+}
