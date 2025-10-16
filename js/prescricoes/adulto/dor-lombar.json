@@ -1,0 +1,8 @@
+{
+    "id": "dor-lombar-aguda",
+    "nome": "Dor Lombar Aguda",
+    "categoria": "ortopedica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Diclofenaco 50mg</p><p class='posologia'>1 comp 8/8h por 5-7 dias (após refeições)</p></div><div class='medicamento'><p class='dosagem'>Cetoprofeno 100mg</p><p class='posologia'>1 comp 12/12h por 5-7 dias (alternativa AINE)</p></div><div class='medicamento'><p class='dosagem'>Ciclobenzaprina 10mg</p><p class='posologia'>1 comp 8/8h por 3-5 dias (relaxante muscular)</p></div><div class='medicamento'><p class='dosagem'>Dipirona 500mg</p><p class='posologia'>1-2 comp 6/6h se necessário (analgesia adicional)</p></div><div class='alerta'><p><strong>🚨 Urgência se:</strong> déficit neurológico, incontinência, febre associada</p><p><strong>💡 Recomendações:</strong> repouso relativo, compressa morna, evitar esforços</p></div>"
+}
