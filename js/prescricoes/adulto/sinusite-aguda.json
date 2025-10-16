@@ -1,0 +1,8 @@
+{
+    "id": "sinusite-aguda",
+    "nome": "Sinusite Aguda",
+    "categoria": "respiratoria",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Amoxicilina 500mg</p><p class='posologia'>1 comp 8/8h por 10-14 dias</p></div><div class='medicamento'><p class='dosagem'>Doxiciclina 100mg</p><p class='posologia'>1 comp 12/12h por 10-14 dias (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Mometasona nasal 50mcg</p><p class='posologia'>2 jatos/narina 2x/dia por 14 dias</p></div><div class='medicamento'><p class='dosagem'>Loratadina 10mg</p><p class='posologia'>1 comp/dia por 7-10 dias (componente alérgico)</p></div><div class='alerta'><p><strong>🔔 Retornar se:</strong> piora dos sintomas, febre persistente, secreção purulenta</p><p><strong>💡 Medidas:</strong> lavagem nasal, hidratação, evitar irritantes</p></div>"
+}
