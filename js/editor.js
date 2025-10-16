@@ -1,4 +1,4 @@
-// Funções do editor
+// Funções do editor de texto
 function formatText(command) {
     document.execCommand(command, false, null);
     document.getElementById('editor').focus();
@@ -18,40 +18,51 @@ function inserirTexto(texto) {
         selection.removeAllRanges();
         selection.addRange(range);
     } else {
-        editor.innerHTML += `<p>${texto}</p>`;
+        // Insere no final
+        const p = document.createElement('p');
+        p.textContent = texto;
+        editor.appendChild(p);
     }
     
     editor.focus();
 }
 
 function limparEditor() {
-    if (confirm('Tem certeza que deseja limpar o conteúdo?')) {
+    if (confirm('Tem certeza que deseja limpar o conteúdo da prescrição?')) {
         document.getElementById('editor').innerHTML = '';
     }
 }
 
-// Funções de busca
+// Funções de busca em tempo real
 function buscarPrescricoes() {
+    if (!carregamentoConcluido) return;
+    
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const searchResults = document.getElementById('searchResults');
     
     if (searchTerm.length < 2) {
         searchResults.style.display = 'none';
+        filtrarPrescricoes(); // Atualiza filtro normal
         return;
     }
     
     const resultados = prescricoes.todas.filter(presc => 
-        presc.nome.toLowerCase().includes(searchTerm)
+        presc.nome.toLowerCase().includes(searchTerm) ||
+        (presc.conteudo && presc.conteudo.toLowerCase().includes(searchTerm))
     );
     
     if (resultados.length === 0) {
         searchResults.innerHTML = '<div class="search-result-item">Nenhuma prescrição encontrada</div>';
     } else {
         searchResults.innerHTML = '';
-        resultados.forEach(presc => {
+        resultados.slice(0, 10).forEach(presc => { // Limita a 10 resultados
             const item = document.createElement('div');
             item.className = 'search-result-item';
-            item.textContent = presc.nome;
+            item.innerHTML = `
+                <strong>${presc.nome}</strong>
+                <br>
+                <small>${formatarCategoria(presc.categoria)} • ${presc.faixa}</small>
+            `;
             item.onclick = function() {
                 document.getElementById('searchInput').value = presc.nome;
                 searchResults.style.display = 'none';
@@ -71,11 +82,19 @@ function buscarPrescricoes() {
     }
     
     searchResults.style.display = 'block';
+    filtrarPrescricoes(); // Também atualiza o dropdown
 }
 
 // Fechar resultados da busca ao clicar fora
 document.addEventListener('click', function(e) {
     if (!e.target.closest('.search-box')) {
+        document.getElementById('searchResults').style.display = 'none';
+    }
+});
+
+// Tecla ESC fecha resultados
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
         document.getElementById('searchResults').style.display = 'none';
     }
 });
