@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:12:46.642Z",
+  "geradoEm": "2025-10-16T14:13:06.772Z",
   "geradoPor": "GitHub Actions",
-  "commit": "3521f10ad78e9a3ca9c9ba43097191f7d501049c",
+  "commit": "da20e1f23b7c3b6f96993fb14e002e86354b3779",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -16,6 +16,14 @@
       "id": "bronquite-aguda",
       "nome": "Bronquite Aguda",
       "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/constipacao.json",
+      "id": "constipacao-intestinal",
+      "nome": "Constipação Intestinal",
+      "categoria": "gastrointestinal",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -108,5 +116,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 13
+  "totalArquivos": 14
 }
