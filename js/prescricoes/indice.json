@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:12:20.440Z",
+  "geradoEm": "2025-10-16T14:12:46.642Z",
   "geradoPor": "GitHub Actions",
-  "commit": "7df6800d15c9b9245a40a045ad35e4e986fa9b8d",
+  "commit": "3521f10ad78e9a3ca9c9ba43097191f7d501049c",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -24,6 +24,14 @@
       "id": "diabetes-tipo2",
       "nome": "Diabetes Mellitus Tipo 2",
       "categoria": "endocrina",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/dispepsia-drge.json",
+      "id": "dispepsia-drge",
+      "nome": "Dispepsia/Doença do Refluxo Gastroesofágico",
+      "categoria": "gastrointestinal",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -100,5 +108,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 12
+  "totalArquivos": 13
 }
