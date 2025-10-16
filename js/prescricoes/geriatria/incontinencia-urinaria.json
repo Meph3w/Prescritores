@@ -1,0 +1,8 @@
+{
+    "id": "incontinencia-urinaria-ger",
+    "nome": "Incontinência Urinária no Idoso",
+    "categoria": "urologica",
+    "faixa": "geriatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Oxibutinina 5mg</p><p class='posologia'>1 comp 8-12h (bexiga hiperativa)</p></div><div class='medicamento'><p class='dosagem'>Tolterodina 2mg</p><p class='posologia'>1 comp 12/12h (alternativa com menos efeitos anticolinérgicos)</p></div><div class='medicamento'><p class='dosagem'>Mirabegrona 50mg</p><p class='posologia'>1 comp/dia (β3-agonista - menos efeitos colaterais)</p></div><div class='alerta'><p><strong>🔍 Avaliar:</strong> tipo de incontinência, medicamentos, infecção, retenção</p><p><strong>💡 Medidas:</strong> treino vesical, fisioterapia pélvica, adequação ambiental</p></div>"
+}
