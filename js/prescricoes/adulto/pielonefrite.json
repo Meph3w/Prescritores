@@ -1,0 +1,8 @@
+{
+    "id": "pielonefrite-ambulatorial",
+    "nome": "Pielonefrite Aguda",
+    "categoria": "urologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Ciprofloxacino 500mg</p><p class='posologia'>1 comp 12/12h por 10-14 dias</p></div><div class='medicamento'><p class='dosagem'>Ceftriaxona 1g</p><p class='posologia'>1 dose IM/EV diária por 3-5 dias (inicial)</p></div><div class='medicamento'><p class='dosagem'>Levofloxacino 750mg</p><p class='posologia'>1 comp/dia por 7-10 dias (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Dipirona 1g</p><p class='posologia'>1 comp 6/6h se dor/febre</p></div><div class='alerta'><p><strong>🚨 INTERNAR SE:</strong> vômitos, desidratação, instabilidade hemodinâmica, comorbidades</p><p><strong>📅 Retorno:</strong> 48-72h para reavaliação, troca oral após melhora</p></div>"
+}
