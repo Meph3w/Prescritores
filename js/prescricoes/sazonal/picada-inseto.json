@@ -1,0 +1,8 @@
+{
+    "id": "picada-inseto",
+    "nome": "Picada de Inseto - Reação Local",
+    "categoria": "dermatologica",
+    "faixa": "adulto",
+    "tipo": "sazonal",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Corticoide tópico</p><p class='posologia'>Betametasona creme 0,1% 2x/dia por 3-5 dias</p></div><div class='medicamento'><p class='dosagem'>Anti-histamínico oral</p><p class='posologia'>Loratadina 10mg/dia por 3-5 dias</p></div><div class='medicamento'><p class='dosagem'>Analgésico</p><p class='posologia'>Dipirona 500mg 6/6h se dor</p></div><div class='medicamento'><p class='dosagem'>Compressa fria</p><p class='posologia'>Aplicar local 3-4x/dia</p></div><div class='alerta'><p><strong>🚨 ANAFILAXIA:</strong> edema facial, dispneia, urticária generalizada - EPINEFRINA</p><p><strong>💡 Prevenção:</strong> repelentes, roupas claras, evitar perfumes</p></div>"
+}
