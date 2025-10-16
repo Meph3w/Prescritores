@@ -1,0 +1,8 @@
+{
+    "id": "lupus-eritematoso",
+    "nome": "Lúpus Eritematoso Sistêmico",
+    "categoria": "reumatologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Hidroxicloroquina 400mg</p><p class='posologia'>1 comp/dia (base - oftalmologia anual)</p></div><div class='medicamento'><p class='dosagem'>Prednisona 5-60mg/dia</p><p class='posologia'>Ajustar conforme atividade da doença</p></div><div class='medicamento'><p class='dosagem'>Azatioprina 50-150mg/dia</p><p class='posologia'>Poupador de corticoide</p></div><div class='medicamento'><p class='dosagem'>Micofenolato 1-3g/dia</p><p class='posologia'>Nefrite lúpica</p></div><div class='alerta'><p><strong>🔍 Monitorar:</strong> atividade da doença (SLEDAI), função renal, sorologias</p><p><strong>💡 Cuidados:</strong> fotoproteção, vacinas inativadas, planejamento gestacional</p></div>"
+}
