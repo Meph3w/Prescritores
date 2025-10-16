@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:21:54.880Z",
+  "geradoEm": "2025-10-16T17:22:11.718Z",
   "geradoPor": "GitHub Actions",
-  "commit": "ffbf288ba45682c34f5df6436c24724f11810e1a",
+  "commit": "93fddba648beef6aabb598c4256e470cedb4e8e8",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -532,6 +532,14 @@
       "tipo": "sazonal"
     },
     {
+      "caminho": "sazonal/rinite-alergica.json",
+      "id": "rinite-alergica-sazonal",
+      "nome": "Rinite Alérgica Sazonal",
+      "categoria": "alergologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "urgencia/avc-agudo.json",
       "id": "avc-agudo",
       "nome": "Acidente Vascular Cerebral Agudo",
@@ -652,5 +660,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 81
+  "totalArquivos": 82
 }
