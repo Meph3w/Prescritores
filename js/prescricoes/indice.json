@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:23:27.578Z",
+  "geradoEm": "2025-10-16T14:24:08.104Z",
   "geradoPor": "GitHub Actions",
-  "commit": "46f57030064f5ef525931c1ae4d52084a2a49366",
+  "commit": "2d17ddd76799eadbf0ca9901a262104d38bfc4a4",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -80,6 +80,14 @@
       "id": "dor-lombar-aguda",
       "nome": "Dor Lombar Aguda",
       "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/dpoc-estavel.json",
+      "id": "dpoc-estavel",
+      "nome": "DPOC Estável",
+      "categoria": "respiratoria",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -180,5 +188,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 22
+  "totalArquivos": 23
 }
