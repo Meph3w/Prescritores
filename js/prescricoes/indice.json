@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:56:16.851Z",
+  "geradoEm": "2025-10-16T16:56:42.304Z",
   "geradoPor": "GitHub Actions",
-  "commit": "180fdaaf784b9eaf7af7bf2f577008891cb8def7",
+  "commit": "74e06745e221e580b41bc5647bc65adc100fe183",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -252,6 +252,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "geriatria/demencia.json",
+      "id": "demencia-alzheimer",
+      "nome": "Demência/Doença de Alzheimer",
+      "categoria": "neurologica",
+      "faixa": "geriatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/bronquiolite.json",
       "id": "bronquiolite-ped",
       "nome": "Bronquiolite",
@@ -356,5 +364,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 44
+  "totalArquivos": 45
 }
