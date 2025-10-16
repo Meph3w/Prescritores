@@ -1,8 +1,24 @@
 {
-  "geradoEm": "2025-10-16T14:06:22.813Z",
+  "geradoEm": "2025-10-16T14:06:56.026Z",
   "geradoPor": "GitHub Actions",
-  "commit": "5c7b6501c8dbe02d6f2d7fffc81ea72d6cea1bf1",
+  "commit": "1e6176c215a130e2b608c5e73b7b935511c8f0b3",
   "arquivos": [
+    {
+      "caminho": "adulto/diabetes-tipo2.json",
+      "id": "diabetes-tipo2",
+      "nome": "Diabetes Mellitus Tipo 2",
+      "categoria": "endocrina",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/dor-lombar.json",
+      "id": "dor-lombar-aguda",
+      "nome": "Dor Lombar Aguda",
+      "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
     {
       "caminho": "adulto/hipertensao.json",
       "id": "hipertensao-adulto",
@@ -52,5 +68,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 6
+  "totalArquivos": 8
 }
