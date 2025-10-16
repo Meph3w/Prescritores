@@ -1,0 +1,8 @@
+{
+    "id": "otite-media-aguda",
+    "nome": "Otite Média Aguda",
+    "categoria": "pediatrica",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Amoxicilina 500mg</p><p class='posologia'>80-90mg/kg/dia dividido 8/8h por 10 dias</p></div><div class='medicamento'><p class='dosagem'>Amoxicilina+Clavulanato 400mg/5ml</p><p class='posologia'>80mg/kg/dia dividido 8/8h (falha/recorrência)</p></div><div class='medicamento'><p class='dosagem'>Azitromicina 200mg/5ml</p><p class='posologia'>10mg/kg/dia por 3 dias (alternativa penicilina)</p></div><div class='medicamento'><p class='dosagem'>Ibuprofeno 100mg/5ml</p><p class='posologia'>5-10mg/kg/dose 8/8h (dor/febre)</p></div><div class='alerta'><p><strong>🔔 Reavaliar em:</strong> 48-72h se sem melhora, febre persistente</p><p><strong>💡 Sintomático:</strong> compressa morna local, analgesia adequada</p></div>"
+}
