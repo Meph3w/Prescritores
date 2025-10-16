@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Prescrições Médicas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-stethoscope"></i> Guia de Prescrições Médicas</h1>
+            <h3>Prescrições padronizadas para Pronto Socorro e Consultório</h3>
+        </div>
+        
+        <div class="filtros">
+            <div class="filtro-group">
+                <label for="faixaEtaria"><i class="fas fa-user"></i> Faixa Etária:</label>
+                <select id="faixaEtaria" onchange="filtrarPrescricoes()">
+                    <option value="todas">Todas as Idades</option>
+                    <option value="neonatal">Neonatal (0-28 dias)</option>
+                    <option value="pediatria">Pediatria (0-12 anos)</option>
+                    <option value="adulto">Adulto (>12 anos)</option>
+                    <option value="geriatria">Geriatria (>60 anos)</option>
+                </select>
+            </div>
+            
+            <div class="filtro-group">
+                <label for="tipoAtendimento"><i class="fas fa-ambulance"></i> Tipo de Atendimento:</label>
+                <select id="tipoAtendimento" onchange="filtrarPrescricoes()">
+                    <option value="todos">Todos os Tipos</option>
+                    <option value="consulta">Consulta Eletiva</option>
+                    <option value="cronico">Condição Crônica</option>
+                    <option value="sazonal">Sazonal/Frequente</option>
+                    <option value="urgencia">Urgência/Emergência</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Buscar prescrição por nome..." onkeyup="buscarPrescricoes()">
+            <div class="search-results" id="searchResults"></div>
+        </div>
+        
+        <label for="prescricao"><i class="fas fa-file-medical"></i> Selecione a Prescrição:</label>
+        <select id="prescricao" onchange="carregarConteudo()">
+            <option value="">Selecione uma prescrição</option>
+        </select>
+        
+        <div id="secao-editor" class="hidden">
+            <div class="info">
+                <h3><i class="fas fa-edit"></i> Editor de Prescrição</h3>
+            </div>
+            
+            <label for="nomePaciente"><i class="fas fa-user-injured"></i> Nome do Paciente:</label>
+            <input type="text" id="nomePaciente" placeholder="Digite o nome completo do paciente">
+            
+            <div class="filtros">
+                <div>
+                    <label for="dataPrescricao"><i class="fas fa-calendar"></i> Data da Prescrição:</label>
+                    <input type="date" id="dataPrescricao">
+                </div>
+                <div>
+                    <label for="idadePaciente"><i class="fas fa-birthday-cake"></i> Idade do Paciente:</label>
+                    <input type="text" id="idadePaciente" placeholder="Ex: 5 anos, 35 anos">
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <button class="quick-btn" onclick="inserirTexto('SIGA AS ORIENTAÇÕES MÉDICAS E RETORNE EM CASO DE PIORA.')">Orientações</button>
+                <button class="quick-btn" onclick="inserirTexto('RETORNO EM 7 DIAS PARA REAVALIAÇÃO.')">Retorno</button>
+                <button class="quick-btn" onclick="inserirTexto('PROCURAR PRONTO SOCORRO EM CASO DE: febre persistente, dificuldade respiratória, piora do estado geral.')">Sinais Alerta</button>
+                <button class="quick-btn" onclick="inserirTexto('MANTER HIDRATAÇÃO ADEQUADA.')">Hidratação</button>
+            </div>
+            
+            <label>Conteúdo da Prescrição:</label>
+            <div class="toolbar">
+                <button onclick="formatText('bold')" title="Negrito"><i class="fas fa-bold"></i></button>
+                <button onclick="formatText('italic')" title="Itálico"><i class="fas fa-italic"></i></button>
+                <button onclick="formatText('underline')" title="Sublinhado"><i class="fas fa-underline"></i></button>
+                <button onclick="formatText('insertUnorderedList')" title="Lista"><i class="fas fa-list-ul"></i></button>
+                <button onclick="formatText('insertOrderedList')" title="Lista Numerada"><i class="fas fa-list-ol"></i></button>
+                <button onclick="limparEditor()" title="Limpar"><i class="fas fa-eraser"></i></button>
+            </div>
+            <div id="editor" contenteditable="true"></div>
+            
+            <div class="action-buttons">
+                <button class="btn-salvar" onclick="salvarComoPDF()">
+                    <i class="fas fa-file-pdf"></i> Salvar como PDF
+                </button>
+                <button class="btn-imprimir" onclick="imprimirPrescricao()">
+                    <i class="fas fa-print"></i> Imprimir
+                </button>
+            </div>
+        </div>
+        
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <footer>
+        <p>Sistema de Prescrições Médicas - Desenvolvido para auxiliar profissionais de saúde</p>
+        <p>Responsabilidade de uso e ajuste de dose é exclusiva do profissional da saúde.</p>
+        <p>Um projeto por <a href="https://anamnesia.club" target="_blank">AnamnesIA</a></p>
+        <div>
+            <a href="https://anamnesia.club/dashboard/"><i class="fas fa-question-circle"></i> Dashboard</a>
+            <a href="https://anamnesia.club/planos/"><i class="fas fa-info-circle"></i> Planos</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
+    <!-- Seus scripts organizados -->
+    <script src="js/loader.js"></script>
+    <script src="js/editor.js"></script>
+    <script src="js/pdf.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
