@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:08:20.415Z",
+  "geradoEm": "2025-10-16T17:08:36.518Z",
   "geradoPor": "GitHub Actions",
-  "commit": "c0f54c7839c242380e71aebed07be6036b5615f2",
+  "commit": "233db651b982d235159cf51df67b572394062b8a",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -216,6 +216,14 @@
       "id": "ler-dort",
       "nome": "Lesão por Esforço Repetitivo",
       "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/nauseas-quimioterapia.json",
+      "id": "nauseas-quimioterapia",
+      "nome": "Náuseas/Vômitos por Quimioterapia",
+      "categoria": "oncologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -532,5 +540,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 66
+  "totalArquivos": 67
 }
