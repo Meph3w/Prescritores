@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:57:17.614Z",
+  "geradoEm": "2025-10-16T16:58:24.715Z",
   "geradoPor": "GitHub Actions",
-  "commit": "185d214ccccdf536307142937447505edf016ec6",
+  "commit": "10f2f993dfb7bb6d0eea6ecee492c21e8b512d26",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -268,6 +268,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "neonatal/ictericia-neonatal.json",
+      "id": "ictericia-neonatal",
+      "nome": "Icterícia Neonatal",
+      "categoria": "neonatal",
+      "faixa": "neonatal",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/bronquiolite.json",
       "id": "bronquiolite-ped",
       "nome": "Bronquiolite",
@@ -380,5 +388,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 47
+  "totalArquivos": 48
 }
