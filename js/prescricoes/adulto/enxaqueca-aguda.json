@@ -1,0 +1,8 @@
+{
+    "id": "enxaqueca-aguda",
+    "nome": "Crise de Enxaqueca",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Sumatriptano 50mg</p><p class='posologia'>1 comp no início da crise, repetir em 2h se necessário (máx 200mg/dia)</p></div><div class='medicamento'><p class='dosagem'>Rizatriptano 10mg</p><p class='posologia'>1 comp (alternativa triptano)</p></div><div class='medicamento'><p class='dosagem'>Dipirona 1g + Cafeína 100mg</p><p class='posologia'>1 comp (analgesia simples)</p></div><div class='medicamento'><p class='dosagem'>Domperidona 10mg</p><p class='posologia'>1 comp (náusea associada)</p></div><div class='alerta'><p><strong>⚠️ Contraindicado:</strong> triptanos em doença vascular, HAS não controlada</p><p><strong>💡 Uso racional:</strong> máximo 10 dias/mês de analgesias para evitar cefaleia medicamentosa</p></div>"
+}
