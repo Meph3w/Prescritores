@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:00:11.924Z",
+  "geradoEm": "2025-10-16T17:00:32.093Z",
   "geradoPor": "GitHub Actions",
-  "commit": "8833769ede8a02b7571fe8441015eaf2062b1ef5",
+  "commit": "5cd86c34b0455307b5ae175380b400578e1c9632",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -348,6 +348,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/obstrucao-nasal.json",
+      "id": "obstrucao-nasal-lactente",
+      "nome": "Obstrução Nasal em Lactente",
+      "categoria": "respiratoria",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/otite-media.json",
       "id": "otite-media-aguda",
       "nome": "Otite Média Aguda",
@@ -428,5 +436,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 53
+  "totalArquivos": 54
 }
