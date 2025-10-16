@@ -1,0 +1,8 @@
+{
+    "id": "bronquiolite-lactente",
+    "nome": "Bronquiolite em Lactente",
+    "categoria": "respiratoria",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Lavagem nasal SF 0,9%</p><p class='posologia'>2-3ml/narina 4-6x/dia antes mamadas</p></div><div class='medicamento'><p class='dosagem'>Aspirador nasal</p><p class='posologia'>Após lavagem nasal se necessário</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 15mg/kg/dose</p><p class='posologia'>6/6h se febre/desconforto</p></div><div class='medicamento'><p class='dosagem'>Ibuprofeno 10mg/kg/dose</p><p class='posologia'>8/8h (> 6 meses, alternativa)</p></div><div class='alerta'><p><strong>🚨 INTERNAR SE:</strong> < 3 meses, saturação < 92%, taquipneia, tiragem, prostração</p><p><strong>💡 Hidratação:</strong> oferta fracionada, observar diurese, sinais desidratação</p></div>"
+}
