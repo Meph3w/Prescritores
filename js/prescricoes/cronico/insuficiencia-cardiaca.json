@@ -1,0 +1,8 @@
+{
+    "id": "ic-cronica",
+    "nome": "Insuficiência Cardíaca Crônica",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "cronico",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Enalapril 5-20mg</p><p class='posologia'>1 comp 12/12h (IECA - FE reduzida)</p></div><div class='medicamento'><p class='dosagem'>Carvedilol 3,125-25mg</p><p class='posologia'>1 comp 12/12h (β-bloqueador)</p></div><div class='medicamento'><p class='dosagem'>Espironolactona 25mg</p><p class='posologia'>1 comp/dia (antialdosterônico)</p></div><div class='medicamento'><p class='dosagem'>Furosemida 20-80mg</p><p class='posologia'>1 comp/dia (diurético - ajustar por peso)</p></div><div class='alerta'><p><strong>💡 Autocuidado:</strong> peso diário, restrição hídrica/sal, atividade física moderada</p><p><strong>🚨 Descompensação:</strong> ganho peso > 2kg/dia, dispneia, edema</p></div>"
+}
