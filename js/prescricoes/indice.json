@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:02:28.747Z",
+  "geradoEm": "2025-10-16T14:04:58.858Z",
   "geradoPor": "GitHub Actions",
-  "commit": "36855cce2358ad7f9590bdf6b99c81e7d06e9273",
+  "commit": "a27d60a0ed39334f58fb94af9b0f1a0b9baede98",
   "arquivos": [
     {
       "caminho": "consulta/rinossinusite.json",
@@ -9,6 +9,14 @@
       "nome": "Rinossinusite Aguda",
       "categoria": "respiratoria",
       "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "pediatria/febre-sintomatica.json",
+      "id": "febre-sintomatica-ped",
+      "nome": "Febre - Manejo Sintomático",
+      "categoria": "pediatrica",
+      "faixa": "pediatria",
       "tipo": "consulta"
     },
     {
@@ -20,5 +28,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 2
+  "totalArquivos": 3
 }
