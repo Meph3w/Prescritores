@@ -1,0 +1,8 @@
+{
+    "id": "status-epileptico-ped",
+    "nome": "Estado de Mal Epiléptico Pediátrico",
+    "categoria": "neurologica",
+    "faixa": "pediatria",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Midazolam 0,2mg/kg IM/Bucal</p><p class='posologia'>Dose inicial (máx 10mg)</p></div><div class='medicamento'><p class='dosagem'>Diazepam 0,3-0,5mg/kg IV/Retal</p><p class='posologia'>Dose inicial (máx 10mg)</p></div><div class='medicamento'><p class='dosagem'>Fenitoína 20mg/kg IV</p><p class='posologia'>Infusão lenta (refratário)</p></div><div class='medicamento'><p class='dosagem'>Fenobarbital 20mg/kg IV</p><p class='posologia'>Infusão lenta (segunda linha)</p></div><div class='alerta'><p><strong>🚨 PROTOCOLO DE SUPORTE:</strong> via aérea, O2, monitorização, glicemia, acesso venoso</p><p><strong>📊 Investigar:</strong> causa metabólica, infecciosa, estrutural, tóxica</p></div>"
+}
