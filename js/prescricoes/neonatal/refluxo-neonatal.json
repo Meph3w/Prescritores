@@ -1,0 +1,8 @@
+{
+    "id": "refluxo-neonatal",
+    "nome": "Refluxo Gastroesofágico Neonatal",
+    "categoria": "neonatal",
+    "faixa": "neonatal",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Posicionamento</p><p class='posologia'>Elevar cabeceira 30°, decúbito dorsal</p></div><div class='medicamento'><p class='dosagem'>Espessante alimentar</p><p class='posologia'>1 medida/30ml de leite (fórmula infantil)</p></div><div class='medicamento'><p class='dosagem'>Domperidona 0,2-0,4mg/kg/dose</p><p class='posologia'>8/8h 30min antes das mamadas</p></div><div class='medicamento'><p class='dosagem'>Omeprazol 1mg/kg/dia</p><p class='posologia'>1x/dia (esofagite/DRGE confirmada)</p></div><div class='alerta'><p><strong>🚨 Sinais de alarme:</strong> apneia, bradicardia, ganho ponderal inadequado, recusa alimentar</p><p><strong>💡 Medidas:</strong> fracionar alimentação, arrotar frequentemente, evitar superalimentação</p></div>"
+}
