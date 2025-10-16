@@ -5,7 +5,6 @@ async function salvarComoPDF() {
     
     const nomePaciente = document.getElementById('nomePaciente').value || '_________________________';
     const dataPrescricao = document.getElementById('dataPrescricao').value;
-    const idadePaciente = document.getElementById('idadePaciente').value || '_________________________';
     
     const dataFormatada = dataPrescricao ? 
         new Date(dataPrescricao).toLocaleDateString('pt-BR') : 
@@ -30,7 +29,6 @@ async function salvarComoPDF() {
         doc.setFontSize(12);
         doc.setTextColor(0, 0, 0);
         doc.text(`Paciente: ${nomePaciente}`, 20, 40);
-        doc.text(`Idade: ${idadePaciente}`, 20, 50);
         doc.text(`Data: ${dataFormatada}`, 20, 60);
         
         // Adicionar imagem do conteúdo
@@ -70,7 +68,6 @@ async function salvarComoPDF() {
 function imprimirPrescricao() {
     const nomePaciente = document.getElementById('nomePaciente').value || '_________________________';
     const dataPrescricao = document.getElementById('dataPrescricao').value;
-    const idadePaciente = document.getElementById('idadePaciente').value || '_________________________';
     const conteudoEditor = document.getElementById('editor').innerHTML;
     
     const dataFormatada = dataPrescricao ? 
@@ -158,7 +155,6 @@ function imprimirPrescricao() {
             
             <div class="paciente-info">
                 <p><strong>Paciente:</strong> ${nomePaciente}</p>
-                <p><strong>Idade:</strong> ${idadePaciente}</p>
                 <p><strong>Data:</strong> ${dataFormatada}</p>
             </div>
             
@@ -168,8 +164,7 @@ function imprimirPrescricao() {
             
             <div class="assinatura">
                 <div class="linha-assinatura"></div>
-                <p><strong>Dr. _________________________</strong></p>
-                <p>CRM: _________________________</p>
+                <p><strong>_________________________</strong></p>
             </div>
             
             <div class="no-print" style="margin-top: 50px; text-align: center; color: #6c757d;">
