@@ -1,0 +1,8 @@
+{
+    "id": "dpoc-estavel",
+    "nome": "DPOC Estável",
+    "categoria": "respiratoria",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Brometo de tiotrópio 18mcg</p><p class='posologia'>1 cápsula/dia via Handihaler (manutenção)</p></div><div class='medicamento'><p class='dosagem'>Salmeterol+Fluticasona 50/250mcg</p><p class='posologia'>1 inalação 12/12h (alternativa combinada)</p></div><div class='medicamento'><p class='dosagem'>Salbutamol spray 100mcg</p><p class='posologia'>2 jatos 6/6h se necessário (resgate)</p></div><div class='medicamento'><p class='dosagem'>Teofilina 400mg</p><p class='posologia'>1 comp/dia (terceira linha)</p></div><div class='alerta'><p><strong>💡 Essencial:</strong> cessar tabagismo, vacinação influenza/pneumococo</p><p><strong>📅 Reavaliação:</strong> função pulmonar anual, ajuste conforme sintomas</p></div>"
+}
