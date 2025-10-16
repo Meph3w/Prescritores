@@ -1,0 +1,8 @@
+{
+    "id": "nauseas-quimioterapia",
+    "nome": "Náuseas/Vômitos por Quimioterapia",
+    "categoria": "oncologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Ondansetrona 8mg</p><p class='posologia'>1 comp 8/8h (5-HT3 antagonista)</p></div><div class='medicamento'><p class='dosagem'>Aprepitant 125mg</p><p class='posologia'>1 comp/dia D1, depois 80mg/dia D2-3 (NK1 antagonista)</p></div><div class='medicamento'><p class='dosagem'>Dexametasona 8mg</p><p class='posologia'>1 comp 12/12h D1-3 (corticoide)</p></div><div class='medicamento'><p class='dosagem'>Metoclopramida 10mg</p><p class='posologia'>1 comp 8/8h (segunda linha)</p></div><div class='alerta'><p><strong>💡 Profilaxia:</strong> conforme emetogenicidade da quimioterapia</p><p><strong>🚨 Desidratação:</strong> hidratação IV se vômitos incoercíveis</p></div>"
+}
