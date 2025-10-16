@@ -1,20 +1,12 @@
 {
-  "geradoEm": "2025-10-16T13:25:48.985Z",
+  "geradoEm": "2025-10-16T13:53:13.695Z",
   "geradoPor": "GitHub Actions",
-  "commit": "c762310ebb207a626e5543dd90a3ff06374213cd",
+  "commit": "5abb29a19b58114d9fefa53b22218825ebfec12f",
   "arquivos": [
     {
       "caminho": "consulta/rinossinusite.json",
       "id": "rinossinusite",
       "nome": "Rinossinusite Aguda",
-      "categoria": "respiratoria",
-      "faixa": "adulto",
-      "tipo": "consulta"
-    },
-    {
-      "caminho": "consulta/teste.json",
-      "id": "teste",
-      "nome": "teste Aguda",
       "categoria": "respiratoria",
       "faixa": "adulto",
       "tipo": "consulta"
@@ -28,5 +20,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 3
+  "totalArquivos": 2
 }
