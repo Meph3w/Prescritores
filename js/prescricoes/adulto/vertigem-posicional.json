@@ -1,0 +1,8 @@
+{
+    "id": "vertigem-posicional",
+    "nome": "Vertigem Posicional Paroxística Benigna",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Betaistina 24mg</p><p class='posologia'>1 comp 8/8h por 7-10 dias</p></div><div class='medicamento'><p class='dosagem'>Dimenidrinato 50mg</p><p class='posologia'>1 comp 8/8h se necessário (sintomático)</p></div><div class='medicamento'><p class='dosagem'>Flunarizina 10mg</p><p class='posologia'>1 comp à noite por 15-30 dias</p></div><div class='alerta'><p><strong>🚨 Encaminhar se:</strong> sinais neurológicos focais, perda auditiva, zumbido persistente</p><p><strong>💡 Manobras:</strong> Epley/Semont (realizar com profissional), evitar movimentos bruscos</p></div>"
+}
