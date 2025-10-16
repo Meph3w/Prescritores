@@ -1,0 +1,8 @@
+{
+    "id": "avc-agudo",
+    "nome": "Acidente Vascular Cerebral Agudo",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>AAS 100-300mg</p><p class='posologia'>Administrar se hemorragico descartado</p></div><div class='medicamento'><p class='dosagem'>Manitol 20%</p><p class='posologia'>1-1,5g/kg IV (edema cerebral - hospitalar)</p></div><div class='alerta'><p><strong>⏰ TEMPO É CÉREBRO:</strong> encaminhamento IMEDIATO para hospital com neuroimagem</p><p><strong>🚨 NÃO ADMINISTRAR:</strong> anticoagulantes, anti-hipertensivos agressivos</p><p><strong>📊 Monitorar:</strong> Glicemia, PA, saturação, escala de coma</p></div>"
+}
