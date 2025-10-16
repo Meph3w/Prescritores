@@ -1,0 +1,8 @@
+{
+    "id": "hipertensao-adulto",
+    "nome": "Hipertensão Arterial",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Losartana 50mg</p><p class='posologia'>1 comprimido/dia (aumentar para 100mg se necessário)</p></div><div class='medicamento'><p class='dosagem'>Atenolol 50mg</p><p class='posologia'>1 comprimido/dia (alternativa para taquicardia)</p></div><div class='medicamento'><p class='dosagem'>Hidroclorotiazida 25mg</p><p class='posologia'>1 comprimido/dia (associar se monoterapia insuficiente)</p></div><div class='medicamento'><p class='dosagem'>Anlodipino 5mg</p><p class='posologia'>1 comprimido/dia (alternativa vasodilatadora)</p></div><div class='alerta'><p><strong>📅 Retornar em:</strong> 30 dias para reavaliação e ajuste</p><p><strong>💡 Medidas:</strong> redução de sal, exercícios, controle peso, evitar álcool</p></div>"
+}
