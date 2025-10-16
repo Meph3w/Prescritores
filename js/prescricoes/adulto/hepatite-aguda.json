@@ -1,0 +1,8 @@
+{
+    "id": "hepatite-aguda-viral",
+    "nome": "Hepatite Aguda Viral",
+    "categoria": "gastrointestinal",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Silimarina 150mg</p><p class='posologia'>1 comp 8/8h (hepatoprotetor)</p></div><div class='medicamento'><p class='dosagem'>Metoclopramida 10mg</p><p class='posologia'>1 comp 8/8h se náusea/vômito</p></div><div class='medicamento'><p class='dosagem'>Ursodesoxicólico 300mg</p><p class='posologia'>1 comp 12/12h (colestase)</p></div><div class='alerta'><p><strong>🚨 INTERNAR SE:</strong> INR > 1,5, bilirrubina > 20, encefalopatia, hipoglicemia</p><p><strong>💡 Recomendações:</strong> repouso, dieta hipoprotéica se encefalopatia, evitar AINEs/álcool</p><p><strong>🔍 Investigar:</strong> sorologias virais, etilismo, medicamentos hepatotóxicos</p></div>"
+}
