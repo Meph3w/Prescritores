@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:00:58.905Z",
+  "geradoEm": "2025-10-16T17:01:15.781Z",
   "geradoPor": "GitHub Actions",
-  "commit": "d859ed172784b61473e584fec0636db8453c23f6",
+  "commit": "81eed383ba1f220f6968f64948bac24baf1eb126",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -396,6 +396,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "urgencia/desidratacao-grave-ped.json",
+      "id": "desidratacao-grave-ped",
+      "nome": "Desidratação Aguda Grave",
+      "categoria": "pediatrica",
+      "faixa": "pediatria",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/edema-agudo-pulmao.json",
       "id": "edema-agudo-pulmao",
       "nome": "Edema Agudo de Pulmão",
@@ -444,5 +452,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 55
+  "totalArquivos": 56
 }
