@@ -1,8 +1,16 @@
 {
-  "geradoEm": "2025-10-16T14:11:23.229Z",
+  "geradoEm": "2025-10-16T14:11:59.975Z",
   "geradoPor": "GitHub Actions",
-  "commit": "3ea1bde27b63c26c6971b1511448a63489481f0e",
+  "commit": "01b3805f03d5f77076c580d933ec9f3a69b19aac",
   "arquivos": [
+    {
+      "caminho": "adulto/amigdalite.json",
+      "id": "amigdalite-bacteriana",
+      "nome": "Amigdalite Bacteriana",
+      "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
     {
       "caminho": "adulto/diabetes-tipo2.json",
       "id": "diabetes-tipo2",
@@ -84,5 +92,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 10
+  "totalArquivos": 11
 }
