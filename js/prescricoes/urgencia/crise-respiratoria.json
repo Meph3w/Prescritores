@@ -1,8 +1,0 @@
-{
-    "id": "crise-respiratoria",
-    "nome": "Crise Respiratória Aguda (Pediatria)",
-    "categoria": "respiratoria",
-    "faixa": "pediatria",
-    "tipo": "urgencia",
-    "conteudo": "<div class='emergencia'><p><strong>🚑 URGÊNCIA RESPIRATÓRIA</strong></p></div><div class='medicamento'><p class='dosagem'>Salbutamol spray 100mcg</p><p class='posologia'>4-8 jatos via espaçador, repetir a cada 20 minutos se necessário</p></div><div class='medicamento'><p class='dosagem'>Brometo de Ipratrópio spray 20mcg</p><p class='posologia'>4-8 jatos via espaçador (alternativa ou adjuvante)</p></div><div class='medicamento'><p class='dosagem'>Prednisolona 3mg/ml</p><p class='posologia'>1-2mg/kg/dia por 3-5 dias (máx 40mg/dia)</p></div><div class='alerta'><p><strong>🚨 Encaminhar ao PS se:</strong> taquipneia, tiragem, saturação < 92%, melhora insuficiente</p></div><div class='info'><p><strong>💡 Orientações:</strong> Manter ambiente calmo, hidratação adequada, evitar gatilhos alérgicos</p></div>"
-}
