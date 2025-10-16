@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:55:43.960Z",
+  "geradoEm": "2025-10-16T16:56:16.851Z",
   "geradoPor": "GitHub Actions",
-  "commit": "97e922068c9832ba1c4a3a912745ec4dfa778c64",
+  "commit": "180fdaaf784b9eaf7af7bf2f577008891cb8def7",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -268,6 +268,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/gastroenterite-desidratacao.json",
+      "id": "gastroenterite-desidratacao",
+      "nome": "Gastroenterite com Desidratação Leve",
+      "categoria": "gastrointestinal",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/gastroenterite.json",
       "id": "gastroenterite-ped",
       "nome": "Vômitos e Diarreia",
@@ -348,5 +356,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 43
+  "totalArquivos": 44
 }
