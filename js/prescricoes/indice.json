@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:23:33.749Z",
+  "geradoEm": "2025-10-16T17:23:47.408Z",
   "geradoPor": "GitHub Actions",
-  "commit": "198d245858e82813d445400fda45b64c432878bd",
+  "commit": "c6928e9ada3596f3b48f3bc0b4fede756bee93b9",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -524,6 +524,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "sazonal/conjuntivite-viral.json",
+      "id": "conjuntivite-viral-sazonal",
+      "nome": "Conjuntivite Viral Sazonal",
+      "categoria": "oftalmologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/dengue.json",
       "id": "dengue-aguda",
       "nome": "Dengue - Manejo Ambulatorial",
@@ -676,5 +684,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 84
+  "totalArquivos": 85
 }
