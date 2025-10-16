@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:11:26.833Z",
+  "geradoEm": "2025-10-16T17:20:23.167Z",
   "geradoPor": "GitHub Actions",
-  "commit": "ae93d6eedd2598dcf215dd1f66cf798f83e0ce9e",
+  "commit": "43716186c232f4c73fb2b3feacbb7d7b9b547918",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -324,6 +324,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "cronico/dpoc-estavel.json",
+      "id": "dpoc-estavel-manutencao",
+      "nome": "DPOC Estável - Manutenção",
+      "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "cronico"
+    },
+    {
       "caminho": "geriatria/delirium-agudo.json",
       "id": "delirium-agudo",
       "nome": "Delirium Agudo no Idoso",
@@ -604,5 +612,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 75
+  "totalArquivos": 76
 }
