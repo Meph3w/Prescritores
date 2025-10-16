@@ -1,0 +1,8 @@
+{
+    "id": "desidratacao-grave-ped",
+    "nome": "Desidratação Aguda Grave",
+    "categoria": "pediatrica",
+    "faixa": "pediatria",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>SF 0,9% 20ml/kg</p><p class='posologia'>Bolus rápido IV, repetir se necessário</p></div><div class='medicamento'><p class='dosagem'>Ringer lactato</p><p class='posologia'>Manutenção após expansão volêmica</p></div><div class='medicamento'><p class='dosagem'>Glicose 10%</p><p class='posologia'>Associar se hipoglicemia</p></div><div class='medicamento'><p class='dosagem'>Potássio 20-40mEq/L</p><p class='posologia'>Adicionar após diurese estabelecida</p></div><div class='alerta'><p><strong>🚨 INTERNAÇÃO:</strong> expansão volêmica imediata, correção hidroeletrolítica</p><p><strong>📊 Monitorar:</strong> peso, diurese, eletrólitos, sinais vitais seriados</p></div>"
+}
