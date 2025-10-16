@@ -18,6 +18,7 @@ function formatarCategoria(categoria) {
         'infecciosa': '🦠 Infecciosas',
         'infectologica': '🦠 Infecciosas',
         'neonatal': '👶 Neonatal',
+        'nefrologica': '💧 Nefrologia',
         'neurologica': '🧠 Neurológicas',
         'oftalmologica': '👁️ Oftalmológicas',
         'oncologica': '🤧 Oncologia',
@@ -25,7 +26,7 @@ function formatarCategoria(categoria) {
         'otorrinolaringologica': '👂 Otorrinolaringológicas',
         'pediatrica': '👶 Pediatria',
         'psiquiatrica': '🧠 Psiquiátricas',
-        'renal': '💧 Renais',
+        'renal': '💧 Nefrologia',
         'reumatologica': '🦵 Reumatológicas',
         'respiratoria': '🫁 Respiratórias',
         'urologica': '💧 Urologia'
