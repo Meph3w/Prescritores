@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:08:36.518Z",
+  "geradoEm": "2025-10-16T17:08:54.495Z",
   "geradoPor": "GitHub Actions",
-  "commit": "233db651b982d235159cf51df67b572394062b8a",
+  "commit": "5cfb8771c2e5b7b242676ee8f26ebf65108f14bb",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -144,6 +144,14 @@
       "id": "dor-lombar-aguda",
       "nome": "Dor Lombar Aguda",
       "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/dor-oncologica.json",
+      "id": "dor-oncologica",
+      "nome": "Dor Oncológica",
+      "categoria": "oncologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -540,5 +548,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 67
+  "totalArquivos": 68
 }
