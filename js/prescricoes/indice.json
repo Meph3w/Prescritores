@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:25:10.377Z",
+  "geradoEm": "2025-10-16T17:25:22.133Z",
   "geradoPor": "GitHub Actions",
-  "commit": "75cd2db6ac7ade6ca61f543f043d52767f960f04",
+  "commit": "362128248f534426a995a8bd52b05e67830d4544",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -572,6 +572,14 @@
       "tipo": "sazonal"
     },
     {
+      "caminho": "sazonal/picada-inseto.json",
+      "id": "picada-inseto",
+      "nome": "Picada de Inseto - Reação Local",
+      "categoria": "dermatologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/queimadura-solar-insolacao.json",
       "id": "queimadura-solar-insolacao",
       "nome": "Queimadura Solar - Insolação",
@@ -708,5 +716,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 88
+  "totalArquivos": 89
 }
