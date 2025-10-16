@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:58:41.375Z",
+  "geradoEm": "2025-10-16T16:59:21.498Z",
   "geradoPor": "GitHub Actions",
-  "commit": "a7e4169735da22cb99c56c8900d380a9a525db9c",
+  "commit": "a50592606fda32afc8cf6109e2e3f07af92c86da",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -284,6 +284,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "neonatal/refluxo-neonatal.json",
+      "id": "refluxo-neonatal",
+      "nome": "Refluxo Gastroesofágico Neonatal",
+      "categoria": "neonatal",
+      "faixa": "neonatal",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/bronquiolite.json",
       "id": "bronquiolite-ped",
       "nome": "Bronquiolite",
@@ -396,5 +404,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 49
+  "totalArquivos": 50
 }
