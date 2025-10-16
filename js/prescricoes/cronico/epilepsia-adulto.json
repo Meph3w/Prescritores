@@ -1,0 +1,8 @@
+{
+    "id": "epilepsia-manutencao",
+    "nome": "Epilepsia - Tratamento de Manutenção",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "cronico",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Ácido valproico 500mg</p><p class='posologia'>1 comp 8-12h (crises tônico-clônicas)</p></div><div class='medicamento'><p class='dosagem'>Carbamazepina 200mg</p><p class='posologia'>1 comp 8/8h (crises focais)</p></div><div class='medicamento'><p class='dosagem'>Levetiracetam 500mg</p><p class='posologia'>1 comp 12/12h (amplo espectro)</p></div><div class='medicamento'><p class='dosagem'>Lamotrigina 50mg</p><p class='posologia'>1 comp 12/12h (mulheres em idade fértil)</p></div><div class='alerta'><p><strong>💡 Adesão:</strong> uso regular fundamental, nunca suspender abruptamente</p><p><strong>⚠️ Restrições:</strong> dirigir, altura, máquinas (conforme legislação)</p></div>"
+}
