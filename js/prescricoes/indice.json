@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:56:42.304Z",
+  "geradoEm": "2025-10-16T16:57:01.841Z",
   "geradoPor": "GitHub Actions",
-  "commit": "74e06745e221e580b41bc5647bc65adc100fe183",
+  "commit": "b31e8bcb62782f6c319031b94d19c75dbf774802",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -260,6 +260,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "geriatria/incontinencia-urinaria.json",
+      "id": "incontinencia-urinaria-ger",
+      "nome": "Incontinência Urinária no Idoso",
+      "categoria": "urologica",
+      "faixa": "geriatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/bronquiolite.json",
       "id": "bronquiolite-ped",
       "nome": "Bronquiolite",
@@ -364,5 +372,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 45
+  "totalArquivos": 46
 }
