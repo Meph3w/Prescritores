@@ -4,30 +4,30 @@ let carregamentoConcluido = false;
 
 // Função para formatar categorias
 function formatarCategoria(categoria) {
-    const categorias = {
-        'respiratoria': '🫁 Respiratórias',
-        'cardiologica': '❤️ Cardiovasculares', 
-        'neurologica': '🧠 Neurológicas',
-        'gastrointestinal': '🫀 Gastrointestinais',
-        'otorrinolaringologica': '👂 Otorrinolaringológicas',
+    const categorias = { 
         'alergica': '🤧 Alérgicas',
         'alergologica': '🤧 Alérgicas',
+        'cardiologica': '❤️ Cardiovasculares', 
         'dermatologica': '🦠 Dermatológicas',
+        'endocrina': '⚖️ Endócrinas',
+        'geriatria': '🧓 Geriatria',
+        'gastrointestinal': '🫀 Gastrointestinais',
+        'ginecologica': '🦞 Ginecologia',
+        'hematologica': '🩸 Hematologia',
         'infecciosa': '🦠 Infecciosas',
         'infectologica': '🦠 Infecciosas',
-        'endocrina': '⚖️ Endócrinas',
-        'reumatologica': '🦵 Reumatológicas',
-        'psiquiatrica': '🧠 Psiquiátricas',
-        'ortopedica': '🦴 Ortopédicas',
-        'renal': '💧 Renais',
-        'urologica': '💧 Urologia',
-        'hematologica': '🩸 Hematologia',
-        'ginecologica': '🦞 Ginecologia',
-        'oftalmologica': '👁️ Oftalmológicas',
         'neonatal': '👶 Neonatal',
+        'neurologica': '🧠 Neurológicas',
+        'oftalmologica': '👁️ Oftalmológicas',
+        'ortopedica': '🦴 Ortopédicas',
+        'otorrinolaringologica': '👂 Otorrinolaringológicas',
         'pediatrica': '👶 Pediatria',
-        'geriatria': '🧓 Geriatria'
-    };
+        'psiquiatrica': '🧠 Psiquiátricas',
+        'renal': '💧 Renais',
+        'reumatologica': '🦵 Reumatológicas',
+        'respiratoria': '🫁 Respiratórias',
+        'urologica': '💧 Urologia'
+};
     return categorias[categoria] || categoria;
 }
 
