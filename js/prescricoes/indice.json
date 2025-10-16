@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:59:21.498Z",
+  "geradoEm": "2025-10-16T16:59:41.118Z",
   "geradoPor": "GitHub Actions",
-  "commit": "a50592606fda32afc8cf6109e2e3f07af92c86da",
+  "commit": "abf4036757995c88bc2c62d6db3afb3706361a18",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -292,6 +292,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/bronquiolite-lactente.json",
+      "id": "bronquiolite-lactente",
+      "nome": "Bronquiolite em Lactente",
+      "categoria": "respiratoria",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/bronquiolite.json",
       "id": "bronquiolite-ped",
       "nome": "Bronquiolite",
@@ -404,5 +412,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 50
+  "totalArquivos": 51
 }
