@@ -19,7 +19,7 @@ O **Guia de Prescrições Médicas** é uma plataforma digital desenvolvida para
 - ⚕️ **Todos os tipos de atendimento**
 - 🔍 **Sistema de busca** por nome de prescrição
 - 📊 **89+ prescrições** disponíveis
-- 🖥️ **App para computador** em breve
+- 🖥️ **[EM BREVE!] App para desktop**
 
 ## 🎯 Público-Alvo
 
