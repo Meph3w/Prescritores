@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:13:06.772Z",
+  "geradoEm": "2025-10-16T14:13:22.646Z",
   "geradoPor": "GitHub Actions",
-  "commit": "da20e1f23b7c3b6f96993fb14e002e86354b3779",
+  "commit": "1d1bd87f46cbdb1ae31641c10f54220c2fce2942",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -16,6 +16,14 @@
       "id": "bronquite-aguda",
       "nome": "Bronquite Aguda",
       "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/cefaleia-tensional.json",
+      "id": "cefaleia-tensional",
+      "nome": "Cefaleia Tensional",
+      "categoria": "neurologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -116,5 +124,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 14
+  "totalArquivos": 15
 }
