@@ -1,0 +1,8 @@
+{
+    "id": "ictericia-neonatal",
+    "nome": "Icterícia Neonatal",
+    "categoria": "neonatal",
+    "faixa": "neonatal",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Fototerapia</p><p class='posologia'>Iniciar conforme curva de Kramer e idade gestacional</p></div><div class='medicamento'><p class='dosagem'>Albumina 20%</p><p class='posologia'>1g/kg IV em 2-4h (hiperbilirrubinemia grave)</p></div><div class='medicamento'><p class='dosagem'>Imunoglobulina IV 0,5-1g/kg</p><p class='posologia'>Incompatibilidade Rh/ABO (hospitalar)</p></div><div class='alerta'><p><strong>🚨 EXSANGUINEOTRANSFUSÃO:</strong> bilirrubina > 25mg/dL, encefalopatia aguda, anemia grave</p><p><strong>💡 Manejo:</strong> amamentação frequente, monitorização seriada, investigar causa</p></div>"
+}
