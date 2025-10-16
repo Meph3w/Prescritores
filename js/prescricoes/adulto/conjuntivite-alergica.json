@@ -1,0 +1,8 @@
+{
+    "id": "conjuntivite-alergica",
+    "nome": "Conjuntivite Alérgica",
+    "categoria": "oftalmologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Olopatadina colírio 0,1%</p><p class='posologia'>1 gota 12/12h por 14 dias</p></div><div class='medicamento'><p class='dosagem'>Dexametasona colírio 0,1%</p><p class='posologia'>1-2 gotas 4x/dia por 5-7 dias (casos intensos)</p></div><div class='medicamento'><p class='dosagem'>Loratadina 10mg</p><p class='posologia'>1 comp/dia por 7-10 dias (sistêmico)</p></div><div class='medicamento'><p class='dosagem'>Lágrima artificial</p><p class='posologia'>1-2 gotas 4-6x/dia (lavagem/alívio)</p></div><div class='alerta'><p><strong>🔔 Retornar se:</strong> piora, secreção purulenta, dor ocular</p><p><strong>💡 Evitar:</strong> alérgenos conhecidos, coçar os olhos, lentes de contato</p></div>"
+}
