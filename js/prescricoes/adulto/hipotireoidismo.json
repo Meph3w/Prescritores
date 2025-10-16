@@ -1,0 +1,8 @@
+{
+    "id": "hipotireoidismo",
+    "nome": "Hipotireoidismo",
+    "categoria": "endocrina",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Levotiroxina 25-50mcg</p><p class='posologia'>1 comp/dia em jejum 30min antes do café</p></div><div class='medicamento'><p class='dosagem'>Levotiroxina 75-100mcg</p><p class='posologia'>Dose de manutenção (ajustar por TSH)</p></div><div class='alerta'><p><strong>📅 Reavaliação:</strong> TSH após 6-8 semanas, ajustar dose conforme necessário</p><p><strong>💡 Uso correto:</strong> em jejum, afastado de alimentos, café, outros medicamentos</p><p><strong>🚨 Sintomas de excesso:</strong> taquicardia, insônia, nervosismo, sudorese</p></div>"
+}
