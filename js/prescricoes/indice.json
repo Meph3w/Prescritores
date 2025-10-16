@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:26:07.344Z",
+  "geradoEm": "2025-10-16T14:26:20.899Z",
   "geradoPor": "GitHub Actions",
-  "commit": "fc5cf8398ff073a7c7f0276053b41b451214f460",
+  "commit": "e2667614f68b97e01418eb6bd00b3061425bd5d0",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -124,6 +124,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/gota-aguda.json",
+      "id": "gota-aguda",
+      "nome": "Gota Aguda",
+      "categoria": "reumatologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "adulto/hipertensao.json",
       "id": "hipertensao-adulto",
       "nome": "Hipertensão Arterial",
@@ -236,5 +244,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 29
+  "totalArquivos": 30
 }
