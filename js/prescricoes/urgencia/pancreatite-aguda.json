@@ -1,0 +1,8 @@
+{
+    "id": "pancreatite-aguda",
+    "nome": "Pancreatite Aguda",
+    "categoria": "gastrointestinal",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Hidratação vigorosa</p><p class='posologia'>Ringer lactato 5-10ml/kg/h (reanimação volêmica)</p></div><div class='medicamento'><p class='dosagem'>Analgesia</p><p class='posologia'>Morfina 2-5mg IV 4/4h ou Dipirona 1g IV 6/6h</p></div><div class='medicamento'><p class='dosagem'>Nutrição enteral precoce</p><p class='posologia'>Sonda nasoenteral (se tolerada)</p></div><div class='alerta'><p><strong>🚨 INTERNAR:</strong> escala de Ranson/BISAP, necrose, insuficiência orgânica</p><p><strong>🔍 Etiologia:</strong> litíase biliar, etilismo, hipertrigliceridemia</p></div>"
+}
