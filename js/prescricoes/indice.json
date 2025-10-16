@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:59:56.196Z",
+  "geradoEm": "2025-10-16T17:00:11.924Z",
   "geradoPor": "GitHub Actions",
-  "commit": "76d5136411d88be25a8829e64efe6f582a3e2185",
+  "commit": "8833769ede8a02b7571fe8441015eaf2062b1ef5",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -316,6 +316,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/estomatite-herpetica.json",
+      "id": "estomatite-herpetica",
+      "nome": "Estomatite Herpética",
+      "categoria": "infectologica",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/febre-sintomatica.json",
       "id": "febre-sintomatica-ped",
       "nome": "Febre - Manejo Sintomático",
@@ -420,5 +428,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 52
+  "totalArquivos": 53
 }
