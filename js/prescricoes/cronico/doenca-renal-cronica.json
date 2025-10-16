@@ -1,0 +1,8 @@
+{
+    "id": "drc-estagio3-4",
+    "nome": "Doença Renal Crônica Estágio 3-4",
+    "categoria": "nefrologica",
+    "faixa": "adulto",
+    "tipo": "cronico",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Losartana 50-100mg</p><p class='posologia'>1 comp/dia (BRA - proteção renal)</p></div><div class='medicamento'><p class='dosagem'>Atorvastatina 20mg</p><p class='posologia'>1 comp/dia (dislipidemia)</p></div><div class='medicamento'><p class='dosagem'>Calcifediol 0,266mg</p><p class='posologia'>1 comp/dia (vitamina D - ajustar por PTH)</p></div><div class='medicamento'><p class='dosagem'>Bicarbonato de sódio 500mg</p><p class='posologia'>1-2 comp 8/8h (acidose metabólica)</p></div><div class='alerta'><p><strong>💡 Dieta renal:</strong> controle proteína, potássio, fósforo, sódio</p><p><strong>📊 Monitorar:</strong> TFG, eletrólitos, urina, pressão arterial</p></div>"
+}
