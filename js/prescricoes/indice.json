@@ -1,13 +1,21 @@
 {
-  "geradoEm": "2025-10-16T14:24:25.131Z",
+  "geradoEm": "2025-10-16T14:24:48.840Z",
   "geradoPor": "GitHub Actions",
-  "commit": "f20dc5a1ec94a55cc26686d5ad244a61cc895166",
+  "commit": "17374108d6d8290f69004a50bed7639875237906",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
       "id": "amigdalite-bacteriana",
       "nome": "Amigdalite Bacteriana",
       "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/anticoncepcao-inicial.json",
+      "id": "anticoncepcao-inicial",
+      "nome": "Anticoncepção Oral - Início",
+      "categoria": "ginecologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -196,5 +204,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 24
+  "totalArquivos": 25
 }
