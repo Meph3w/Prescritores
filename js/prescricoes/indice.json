@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:57:01.841Z",
+  "geradoEm": "2025-10-16T16:57:17.614Z",
   "geradoPor": "GitHub Actions",
-  "commit": "b31e8bcb62782f6c319031b94d19c75dbf774802",
+  "commit": "185d214ccccdf536307142937447505edf016ec6",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -340,6 +340,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "urgencia/edema-agudo-pulmao.json",
+      "id": "edema-agudo-pulmao",
+      "nome": "Edema Agudo de Pulmão",
+      "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/exacerbacao-asma.json",
       "id": "exacerbacao-asma",
       "nome": "Exacerbação de Asma",
@@ -372,5 +380,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 46
+  "totalArquivos": 47
 }
