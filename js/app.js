@@ -11,6 +11,7 @@ function formatarCategoria(categoria) {
         'dermatologica': '🦠 Dermatológicas',
         'endocrina': '⚖️ Endócrinas',
         'geriatria': '🧓 Geriatria',
+        'geriatrica': '🧓 Geriatria',
         'gastrointestinal': '🫀 Gastrointestinais',
         'ginecologica': '🦞 Ginecologia',
         'hematologica': '🩸 Hematologia',
