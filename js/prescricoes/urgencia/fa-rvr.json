@@ -1,0 +1,8 @@
+{
+    "id": "fibrilacao-atrial-rvr",
+    "nome": "Fibrilação Atrial com Resposta Ventricular Rápida",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Metoprolol 5mg IV</p><p class='posologia'>2,5-5mg IV lento, repetir a cada 5min (máx 15mg)</p></div><div class='medicamento'><p class='dosagem'>Diltiazem 0,25mg/kg IV</p><p class='posologia'>Bolus lento, depois 5-15mg/h (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Digoxina 0,25mg IV</p><p class='posologia'>0,125-0,25mg IV (IC/hipotensão)</p></div><div class='medicamento'><p class='dosagem'>Anticoagulação</p><p class='posologia'>Iniciar heparina/apixabano conforme risco tromboembólico</p></div><div class='alerta'><p><strong>🚨 CARDIOVERSÃO IMEDIATA:</strong> instabilidade hemodinâmica, dor torácica, IC aguda</p><p><strong>📊 Avaliar:</strong> tempo de início, risco tromboembólico (CHA₂DS₂-VASc)</p></div>"
+}
