@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:01:30.854Z",
+  "geradoEm": "2025-10-16T17:01:46.167Z",
   "geradoPor": "GitHub Actions",
-  "commit": "d1ffd055756c313fd6dd761fda3250ae43c1db87",
+  "commit": "f6958d87e7235ba7723cdd624cce8fd011b1150d",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -324,6 +324,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/enurese-noturna.json",
+      "id": "enurese-noturna",
+      "nome": "Enurese Noturna Primária",
+      "categoria": "urologica",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/estomatite-herpetica.json",
       "id": "estomatite-herpetica",
       "nome": "Estomatite Herpética",
@@ -460,5 +468,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 57
+  "totalArquivos": 58
 }
