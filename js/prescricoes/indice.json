@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:27:24.121Z",
+  "geradoEm": "2025-10-16T14:27:36.827Z",
   "geradoPor": "GitHub Actions",
-  "commit": "cd909f39cba79ae01139732332304d0d0796802b",
+  "commit": "65debe76a356073f98383115350cfa9dc63c6ad3",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -148,6 +148,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/herpes-zoster.json",
+      "id": "herpes-zoster",
+      "nome": "Herpes Zoster Agudo",
+      "categoria": "dermatologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "adulto/hipertensao.json",
       "id": "hipertensao-adulto",
       "nome": "Hipertensão Arterial",
@@ -276,5 +284,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 34
+  "totalArquivos": 35
 }
