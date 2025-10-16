@@ -1,8 +1,16 @@
 {
-  "geradoEm": "2025-10-16T14:06:04.654Z",
+  "geradoEm": "2025-10-16T14:06:22.813Z",
   "geradoPor": "GitHub Actions",
-  "commit": "f321764c0307471342e9f01de6638f7e1e42f709",
+  "commit": "5c7b6501c8dbe02d6f2d7fffc81ea72d6cea1bf1",
   "arquivos": [
+    {
+      "caminho": "adulto/hipertensao.json",
+      "id": "hipertensao-adulto",
+      "nome": "Hipertensão Arterial",
+      "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
     {
       "caminho": "consulta/rinossinusite.json",
       "id": "rinossinusite",
@@ -44,5 +52,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 5
+  "totalArquivos": 6
 }
