@@ -1,0 +1,8 @@
+{
+    "id": "rinite-alergica-sazonal",
+    "nome": "Rinite Alérgica Sazonal",
+    "categoria": "alergologica",
+    "faixa": "adulto",
+    "tipo": "sazonal",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Loratadina 10mg</p><p class='posologia'>1 comp/dia (anti-histamínico 2ª geração)</p></div><div class='medicamento'><p class='dosagem'>Budesonida nasal 100mcg</p><p class='posologia'>2 jatos/narina 12/12h (corticoide tópico)</p></div><div class='medicamento'><p class='dosagem'>Montelucaste 10mg</p><p class='posologia'>1 comp à noite (componente asmático)</p></div><div class='medicamento'><p class='dosagem'>Soro fisiológico nasal</p><p class='posologia'>Lavagem 2-3x/dia (higiene/lavagem alérgenos)</p></div><div class='alerta'><p><strong>💡 Evitar alérgenos:</strong> pólen, ácaros, mofo, epitélio animal</p><p><strong>📅 Uso regular:</strong> corticoides nasais necessitam uso contínuo para efeito</p></div>"
+}
