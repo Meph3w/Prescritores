@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:24:34.288Z",
+  "geradoEm": "2025-10-16T17:25:10.377Z",
   "geradoPor": "GitHub Actions",
-  "commit": "7ac256899fe045c82e1e4ab9ca2a056751bb407f",
+  "commit": "75cd2db6ac7ade6ca61f543f043d52767f960f04",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -572,6 +572,14 @@
       "tipo": "sazonal"
     },
     {
+      "caminho": "sazonal/queimadura-solar-insolacao.json",
+      "id": "queimadura-solar-insolacao",
+      "nome": "Queimadura Solar - Insolação",
+      "categoria": "dermatologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/rinite-alergica.json",
       "id": "rinite-alergica-sazonal",
       "nome": "Rinite Alérgica Sazonal",
@@ -700,5 +708,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 87
+  "totalArquivos": 88
 }
