@@ -20,6 +20,7 @@ function formatarCategoria(categoria) {
         'neonatal': '👶 Neonatal',
         'neurologica': '🧠 Neurológicas',
         'oftalmologica': '👁️ Oftalmológicas',
+        'oncologica': '🤧 Oncologia',
         'ortopedica': '🦴 Ortopédicas',
         'otorrinolaringologica': '👂 Otorrinolaringológicas',
         'pediatrica': '👶 Pediatria',
