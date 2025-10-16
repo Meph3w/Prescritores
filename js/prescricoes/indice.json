@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:24:48.840Z",
+  "geradoEm": "2025-10-16T14:24:59.246Z",
   "geradoPor": "GitHub Actions",
-  "commit": "17374108d6d8290f69004a50bed7639875237906",
+  "commit": "f528ea38a57c920b6e7ac2302be286eed23327f3",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -172,6 +172,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/otite-media.json",
+      "id": "otite-media-aguda",
+      "nome": "Otite Média Aguda",
+      "categoria": "pediatrica",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/tosse-produtiva.json",
       "id": "tosse-produtiva-ped",
       "nome": "Tosse com Secreção",
@@ -204,5 +212,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 25
+  "totalArquivos": 26
 }
