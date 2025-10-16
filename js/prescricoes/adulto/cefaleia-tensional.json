@@ -1,0 +1,8 @@
+{
+    "id": "cefaleia-tensional",
+    "nome": "Cefaleia Tensional",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Dipirona 500mg</p><p class='posologia'>1-2 comp 6/6h se necessário (máx 4g/dia)</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 750mg</p><p class='posologia'>1 comp 8/8h se necessário (alternativa analgésica)</p></div><div class='medicamento'><p class='dosagem'>Cetoprofeno 100mg</p><p class='posologia'>1 comp 12/12h se necessário (AINE opcional)</p></div><div class='medicamento'><p class='dosagem'>Amitriptilina 25mg</p><p class='posologia'>1 comp à noite (profilaxia se > 4 crises/mês)</p></div><div class='alerta'><p><strong>🚨 Sinais de alerta:</strong> início súbito, piora progressiva, focalidade neurológica</p><p><strong>💡 Medidas:</strong> controle estresse, postura adequada, exercícios regulares</p></div>"
+}
