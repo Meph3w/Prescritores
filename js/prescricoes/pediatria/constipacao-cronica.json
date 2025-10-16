@@ -1,0 +1,8 @@
+{
+    "id": "constipacao-cronica-ped",
+    "nome": "Constipação Intestinal Crônica",
+    "categoria": "gastrointestinal",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Lactulose 1-2ml/kg/dia</p><p class='posologia'>Dividido 1-2x/dia, ajustar conforme resposta</p></div><div class='medicamento'><p class='dosagem'>Polietilenoglicol 0,5-1,5g/kg/dia</p><p class='posologia'>Manutenção (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Óleo mineral 1-3ml/kg/dia</p><p class='posologia'>> 1 ano (lubrificante)</p></div><div class='medicamento'><p class='dosagem'>Bisacodil 5-10mg</p><p class='posologia'>> 6 anos, uso eventual (estimulante)</p></div><div class='alerta'><p><strong>💡 Hábitos:</strong> horário regular, posição adequada, dieta rica em fibras</p><p><strong>🔍 Investigar:</strong> doença de Hirschsprung, hipotireoidismo, fissura anal</p></div>"
+}
