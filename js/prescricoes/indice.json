@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:20:23.167Z",
+  "geradoEm": "2025-10-16T17:20:39.488Z",
   "geradoPor": "GitHub Actions",
-  "commit": "43716186c232f4c73fb2b3feacbb7d7b9b547918",
+  "commit": "a0709e3b209bf0849ebd4f9022b91ef1799f7abf",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -332,6 +332,14 @@
       "tipo": "cronico"
     },
     {
+      "caminho": "cronico/insuficiencia-cardiaca.json",
+      "id": "ic-cronica",
+      "nome": "Insuficiência Cardíaca Crônica",
+      "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "cronico"
+    },
+    {
       "caminho": "geriatria/delirium-agudo.json",
       "id": "delirium-agudo",
       "nome": "Delirium Agudo no Idoso",
@@ -612,5 +620,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 76
+  "totalArquivos": 77
 }
