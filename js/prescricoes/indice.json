@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:00:32.093Z",
+  "geradoEm": "2025-10-16T17:00:58.905Z",
   "geradoPor": "GitHub Actions",
-  "commit": "5cd86c34b0455307b5ae175380b400578e1c9632",
+  "commit": "d859ed172784b61473e584fec0636db8453c23f6",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -434,7 +434,15 @@
       "categoria": "cardiologica",
       "faixa": "adulto",
       "tipo": "urgencia"
+    },
+    {
+      "caminho": "urgencia/status-epileptico-ped.json",
+      "id": "status-epileptico-ped",
+      "nome": "Estado de Mal Epiléptico Pediátrico",
+      "categoria": "neurologica",
+      "faixa": "pediatria",
+      "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 54
+  "totalArquivos": 55
 }
