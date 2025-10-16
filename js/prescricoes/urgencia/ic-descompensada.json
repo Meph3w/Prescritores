@@ -1,0 +1,8 @@
+{
+    "id": "ic-descompensada",
+    "nome": "Insuficiência Cardíaca Aguda",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Furosemida 40-80mg IV</p><p class='posologia'>1 ampola IV (hospitalar - ajustar conforme resposta)</p></div><div class='medicamento'><p class='dosagem'>Furosemida 40mg VO</p><p class='posologia'>1-2 comp/dia (manutenção após estabilização)</p></div><div class='medicamento'><p class='dosagem'>Captopril 25mg</p><p class='posologia'>½-1 comp 8/8h (após estabilização hemodinâmica)</p></div><div class='medicamento'><p class='dosagem'>Espironolactona 25mg</p><p class='posologia'>1 comp/dia (associar se FE ≤ 35%)</p></div><div class='alerta'><p><strong>🚨 INTERNAR:</strong> dispneia em repouso, estertores, ingurgitamento jugular, hipoperfusão</p><p><strong>📊 Monitorar:</strong> diurese, peso diário, eletrólitos, função renal</p></div>"
+}
