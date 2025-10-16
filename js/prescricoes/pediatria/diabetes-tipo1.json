@@ -1,0 +1,8 @@
+{
+    "id": "diabetes-tipo1-ped",
+    "nome": "Diabetes Mellitus Tipo 1 em Crianças",
+    "categoria": "endocrina",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Insulina NPH</p><p class='posologia'>0,5-1U/kg/dia dividido 2x/dia (basal)</p></div><div class='medicamento'><p class='dosagem'>Insulina regular</p><p class='posologia'>0,1U/kg antes refeições (bolus)</p></div><div class='medicamento'><p class='dosagem'>Análogos de insulina rápida</p><p class='posologia'>Lispro/Aspart 0,1U/kg (alternativa bolus)</p></div><div class='alerta'><p><strong>🚨 CETOACIDOSE:</strong> glicemia > 250, cetonúria, vômitos - INTERNAR</p><p><strong>💡 Educação:</strong> automonitorização, contagem carboidratos, hipoglicemia</p></div>"
+}
