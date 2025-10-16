@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:54:57.091Z",
+  "geradoEm": "2025-10-16T16:55:12.951Z",
   "geradoPor": "GitHub Actions",
-  "commit": "6dffe42f9a33b61bb0cdb1b19dc4675f1d4f121e",
+  "commit": "6b2cc3ea017f3d74cedce49a37984fb5544f4524",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -111,6 +111,14 @@
       "caminho": "adulto/dispepsia-drge.json",
       "id": "dispepsia-drge",
       "nome": "Dispepsia/Doença do Refluxo Gastroesofágico",
+      "categoria": "gastrointestinal",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/doenca-diverticular.json",
+      "id": "doenca-diverticular",
+      "nome": "Doença Diverticular Sintomática",
       "categoria": "gastrointestinal",
       "faixa": "adulto",
       "tipo": "consulta"
@@ -324,5 +332,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 40
+  "totalArquivos": 41
 }
