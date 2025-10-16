@@ -1,0 +1,8 @@
+{
+    "id": "gota-aguda",
+    "nome": "Gota Aguda",
+    "categoria": "reumatologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Anti-inflamatório não esteroidal</p><p class='posologia'>Escolher uma opção abaixo por 7-10 dias</p></div><div class='medicamento'><p class='dosagem'>Naproxeno 500mg</p><p class='posologia'>1 comp 12/12h (após refeições)</p></div><div class='medicamento'><p class='dosagem'>Indometacina 50mg</p><p class='posologia'>1 comp 8/8h (alternativa clássica)</p></div><div class='medicamento'><p class='dosagem'>Colchicina 0,5mg</p><p class='posologia'>2 comps inicial, depois 1 comp 8/8h (máx 3 dias)</p></div><div class='medicamento'><p class='dosagem'>Prednisona 20-40mg</p><p class='posologia'>1 comp/dia por 5-7 dias (se AINE contraindicado)</p></div><div class='alerta'><p><strong>⚠️ Contraindicado:</strong> AINEs em insuficiência renal, sangramento digestivo</p><p><strong>💡 Medidas:</strong> repouso articular, elevação do membro, gelo local</p></div>"
+}
