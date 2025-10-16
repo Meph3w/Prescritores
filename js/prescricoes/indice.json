@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:06:30.257Z",
+  "geradoEm": "2025-10-16T17:07:32.697Z",
   "geradoPor": "GitHub Actions",
-  "commit": "810a88b9dcfd10a5015f166f8287dc2584313934",
+  "commit": "80c08c252a022ab575ec1535708b63177a6ca258",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -484,6 +484,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "urgencia/sepse-choque.json",
+      "id": "sepse-choque-septico",
+      "nome": "Sepse/Choque Séptico",
+      "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/status-epileptico-ped.json",
       "id": "status-epileptico-ped",
       "nome": "Estado de Mal Epiléptico Pediátrico",
@@ -500,5 +508,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 62
+  "totalArquivos": 63
 }
