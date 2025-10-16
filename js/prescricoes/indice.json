@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:10:35.569Z",
+  "geradoEm": "2025-10-16T17:10:51.004Z",
   "geradoPor": "GitHub Actions",
-  "commit": "d5e925a2459d7dbad373f32bc21090f27ce8da9a",
+  "commit": "73c9b042e138fe844e1bb532fae43a3e74e077cd",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -167,6 +167,14 @@
       "caminho": "adulto/enxaqueca-aguda.json",
       "id": "enxaqueca-aguda",
       "nome": "Crise de Enxaqueca",
+      "categoria": "neurologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/esclerose-multipla.json",
+      "id": "esclerose-multipla",
+      "nome": "Esclerose Múltipla",
       "categoria": "neurologica",
       "faixa": "adulto",
       "tipo": "consulta"
@@ -580,5 +588,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 72
+  "totalArquivos": 73
 }
