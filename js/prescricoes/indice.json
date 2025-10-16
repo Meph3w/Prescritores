@@ -1,13 +1,21 @@
 {
-  "geradoEm": "2025-10-16T14:26:20.899Z",
+  "geradoEm": "2025-10-16T14:26:36.830Z",
   "geradoPor": "GitHub Actions",
-  "commit": "e2667614f68b97e01418eb6bd00b3061425bd5d0",
+  "commit": "1ecd5998c498386f8af0695e6a0ed28d1792dae5",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
       "id": "amigdalite-bacteriana",
       "nome": "Amigdalite Bacteriana",
       "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/anemia-ferropriva.json",
+      "id": "anemia-ferropriva",
+      "nome": "Anemia Ferropriva",
+      "categoria": "hematologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -244,5 +252,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 30
+  "totalArquivos": 31
 }
