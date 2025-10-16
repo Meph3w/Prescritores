@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:08:54.495Z",
+  "geradoEm": "2025-10-16T17:09:31.141Z",
   "geradoPor": "GitHub Actions",
-  "commit": "5cfb8771c2e5b7b242676ee8f26ebf65108f14bb",
+  "commit": "0d7a81c656767c934604b572b80693bd5a2dc476",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -364,6 +364,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/diabetes-tipo1.json",
+      "id": "diabetes-tipo1-ped",
+      "nome": "Diabetes Mellitus Tipo 1 em Crianças",
+      "categoria": "endocrina",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/enurese-noturna.json",
       "id": "enurese-noturna",
       "nome": "Enurese Noturna Primária",
@@ -548,5 +556,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 68
+  "totalArquivos": 69
 }
