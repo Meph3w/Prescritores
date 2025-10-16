@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:25:16.879Z",
+  "geradoEm": "2025-10-16T14:25:49.972Z",
   "geradoPor": "GitHub Actions",
-  "commit": "81bc7e15a0ca71a473d0c3f7ba1ffb8395e05dce",
+  "commit": "62d61ec7fee0d8d6b4a6b5182347a3cb12378a5e",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -56,6 +56,14 @@
       "id": "cistite-aguda",
       "nome": "Cistite Aguda",
       "categoria": "urologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/conjuntivite-bacteriana.json",
+      "id": "conjuntivite-bacteriana",
+      "nome": "Conjuntivite Bacteriana",
+      "categoria": "oftalmologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -220,5 +228,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 27
+  "totalArquivos": 28
 }
