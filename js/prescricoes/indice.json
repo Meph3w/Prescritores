@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:27:56.669Z",
+  "geradoEm": "2025-10-16T14:28:09.563Z",
   "geradoPor": "GitHub Actions",
-  "commit": "1991edc6a19659591e2f5d815a0d922585ca80c5",
+  "commit": "9e06fb93f0470444d5c9d844cb3f06cfa8d63cd9",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -260,6 +260,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "urgencia/avc-agudo.json",
+      "id": "avc-agudo",
+      "nome": "Acidente Vascular Cerebral Agudo",
+      "categoria": "neurologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/crise-hipertensiva.json",
       "id": "crise-hipertensiva",
       "nome": "Crise Hipertensiva",
@@ -292,5 +300,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 36
+  "totalArquivos": 37
 }
