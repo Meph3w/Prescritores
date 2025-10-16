@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: transparent;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #6369D1;
+}
+
+h1 {
+    color: #161616;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+h3 {
+    color: #161616;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filtros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filtro-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+select:focus, input:focus {
+    border-color: #6369D1;
+    outline: none;
+}
+
+button {
+    background-color: #6369D1;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+button:hover {
+    background-color: #4b52b0;
+}
+
+.resultado {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.alerta {
+    background-color: #fff3cd;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px 0;
+    border-left: 4px solid #ffc107;
+}
+
+.info {
+    background-color: #d1ecf1;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px 0;
+    border-left: 4px solid #0dcaf0;
+}
+
+.emergencia {
+    background-color: #f8d7da;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px 0;
+    border-left: 4px solid #dc3545;
+}
+
+.sucesso {
+    background-color: #d1f7e1;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px 0;
+    border-left: 4px solid #198754;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #6c757d;
+}
+
+footer a {
+    color: #6369D1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#editor-container {
+    margin: 20px 0;
+}
+
+#editor {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 400px;
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+.toolbar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.toolbar button {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.assinatura {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.linha-assinatura {
+    border-top: 1px solid #000;
+    width: 350px;
+    margin: 60px auto 15px;
+    padding-top: 15px;
+}
+
+.action-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn-salvar {
+    background-color: #28a745;
+}
+
+.btn-salvar:hover {
+    background-color: #218838;
+}
+
+.btn-imprimir {
+    background-color: #17a2b8;
+}
+
+.btn-imprimir:hover {
+    background-color: #138496;
+}
+
+.btn-limpar {
+    background-color: #6c757d;
+}
+
+.btn-limpar:hover {
+    background-color: #5a6268;
+}
+
+.prescricao-item {
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-left: 4px solid #6369D1;
+}
+
+.prescricao-item:hover {
+    background-color: #f0f2ff;
+}
+
+.prescricao-item.emergencia {
+    border-left-color: #dc3545;
+}
+
+.prescricao-item.urgencia {
+    border-left-color: #fd7e14;
+}
+
+.prescricao-item.eletiva {
+    border-left-color: #198754;
+}
+
+.categoria-titulo {
+    color: #6369D1;
+    margin: 20px 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.medicamento {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.dosagem {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.posologia {
+    color: #495057;
+}
+
+.quick-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.quick-btn {
+    padding: 10px;
+    background: #e9ecef;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.quick-btn:hover {
+    background: #dee2e6;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 15px;
+    top: 38%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.search-box input {
+    padding-left: 45px;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 0 0 10px 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+}
+
+.search-result-item:hover {
+    background: #f0f2ff;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .filtros {
+        grid-template-columns: 1fr;
+    }
+    
+    .action-buttons {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+}
