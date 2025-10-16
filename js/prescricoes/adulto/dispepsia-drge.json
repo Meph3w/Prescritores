@@ -1,0 +1,8 @@
+{
+    "id": "dispepsia-drge",
+    "nome": "Dispepsia/Doença do Refluxo Gastroesofágico",
+    "categoria": "gastrointestinal",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Omeprazol 20mg</p><p class='posologia'>1 comp/dia em jejum por 4-8 semanas</p></div><div class='medicamento'><p class='dosagem'>Pantoprazol 40mg</p><p class='posologia'>1 comp/dia em jejum (alternativa IBP)</p></div><div class='medicamento'><p class='dosagem'>Domperidona 10mg</p><p class='posologia'>1 comp 8/8h 30min antes das refeições</p></div><div class='medicamento'><p class='dosagem'>Hidróxido de Alumínio+Mg</p><p class='posologia'>10-20ml 6/6h se necessário (sintomático)</p></div><div class='alerta'><p><strong>🚨 Alerta:</strong> disfagia, perda ponderal, anemia, idade > 45 anos</p><p><strong>💡 Medidas:</strong> elevar cabeceira, evitar deitar após comer, dieta fracionada</p></div>"
+}
