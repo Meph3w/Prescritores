@@ -1,0 +1,8 @@
+{
+    "id": "herpes-zoster",
+    "nome": "Herpes Zoster Agudo",
+    "categoria": "dermatologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Aciclovir 800mg</p><p class='posologia'>1 comp 5x/dia por 7 dias (iniciar em 72h)</p></div><div class='medicamento'><p class='dosagem'>Valaciclovir 1g</p><p class='posologia'>1 comp 8/8h por 7 dias (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Amitriptilina 25mg</p><p class='posologia'>1 comp à noite (profilaxia neuralgia pós-herpética)</p></div><div class='medicamento'><p class='dosagem'>Gabapentina 300mg</p><p class='posologia'>1 comp 8/8h (dor neuropática)</p></div><div class='alerta'><p><strong>🚨 URGÊNCIA OFTALMOLÓGICA:</strong> envolvimento do ramo oftálmico do trigêmeo</p><p><strong>💡 Cuidados:</strong> compressas frias, evitar contato com lesões, isolamento relativo</p></div>"
+}
