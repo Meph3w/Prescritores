@@ -1,0 +1,8 @@
+{
+    "id": "conjuntivite-neonatal",
+    "nome": "Conjuntivite Neonatal",
+    "categoria": "neonatal",
+    "faixa": "neonatal",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Eritromicina oftálmica 0,5%</p><p class='posologia'>1cm de pomada em cada olho (profilaxia rotineira)</p></div><div class='medicamento'><p class='dosagem'>Ceftriaxona 50mg/kg IM/IV</p><p class='posologia'>1 dose (gonococo suspeito - hospitalar)</p></div><div class='medicamento'><p class='dosagem'>Azitromicina 20mg/kg VO</p><p class='posologia'>1 dose única (clamídia suspeita)</p></div><div class='alerta'><p><strong>🚨 INTERNAR:</strong> secreção purulenta, edema palpebral, sintomas sistêmicos</p><p><strong>🔍 Investigar:</strong> IST materna, cultura secreção, PCR Chlamydia</p></div>"
+}
