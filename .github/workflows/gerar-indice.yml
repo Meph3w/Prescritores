@@ -5,129 +5,90 @@ on:
     paths:
       - 'js/prescricoes/**'
     branches: [ main, master ]
-  workflow_dispatch:  # Permite executar manualmente
+  workflow_dispatch:
 
 jobs:
   gerar-indice:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
     - name: 📥 Checkout do código
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
 
     - name: 🗃️ Gerar índice de prescrições
-      id: gerar-indice
       run: |
         echo "📁 Iniciando geração do índice..."
         
-        # Cria o script Node.js para gerar o índice
-        cat > gerar_indice.js << 'EOF'
+        # Script Node.js simplificado e direto
+        node << 'EOF'
         const fs = require('fs');
         const path = require('path');
 
-        function gerarIndice() {
-            const prescricoesDir = path.join(__dirname, 'js', 'prescricoes');
-            console.log(`📂 Escaneando: ${prescricoesDir}`);
-            
-            const indice = {
-                geradoEm: new Date().toISOString(),
-                geradoPor: 'GitHub Actions',
-                commit: process.env.GITHUB_SHA || 'local',
-                arquivos: []
-            };
+        const prescricoesDir = path.join(process.env.GITHUB_WORKSPACE, 'js', 'prescricoes');
+        console.log(`📂 Escaneando: ${prescricoesDir}`);
+        
+        const indice = {
+          geradoEm: new Date().toISOString(),
+          geradoPor: 'GitHub Actions',
+          commit: process.env.GITHUB_SHA || 'local',
+          arquivos: []
+        };
 
-            function scanDirectory(dir, pastaBase = '') {
-                if (!fs.existsSync(dir)) {
-                    console.log(`❌ Pasta não existe: ${dir}`);
-                    return;
-                }
-                
-                const itens = fs.readdirSync(dir);
-                console.log(`📁 Pasta ${pastaBase || 'root'}: ${itens.length} itens`);
-                
-                itens.forEach(item => {
-                    if (item === 'indice.json') return; // Ignora o próprio índice
-                    
-                    const caminhoCompleto = path.join(dir, item);
-                    const stat = fs.statSync(caminhoCompleto);
-                    
-                    if (stat.isDirectory()) {
-                        // É uma pasta - scaneia recursivamente
-                        scanDirectory(caminhoCompleto, path.join(pastaBase, item));
-                    } else if (item.endsWith('.json')) {
-                        // É um arquivo JSON - adiciona ao índice
-                        const caminhoRelativo = path.join(pastaBase, item);
-                        try {
-                            const dados = JSON.parse(fs.readFileSync(caminhoCompleto, 'utf8'));
-                            indice.arquivos.push({
-                                caminho: caminhoRelativo.replace(/\\/g, '/'),
-                                id: dados.id,
-                                nome: dados.nome,
-                                categoria: dados.categoria,
-                                faixa: dados.faixa,
-                                tipo: dados.tipo
-                            });
-                            console.log(`✅ ${caminhoRelativo}`);
-                        } catch (e) {
-                            console.log(`❌ Erro em ${caminhoRelativo}: ${e.message}`);
-                        }
-                    }
+        function scanDirectory(dir, pastaBase = '') {
+          if (!fs.existsSync(dir)) {
+            console.log(`❌ Pasta não existe: ${dir}`);
+            return;
+          }
+          
+          const itens = fs.readdirSync(dir);
+          console.log(`📁 Pasta ${pastaBase || 'root'}: ${itens.length} itens`);
+          
+          itens.forEach(item => {
+            if (item === 'indice.json') return;
+            
+            const caminhoCompleto = path.join(dir, item);
+            const stat = fs.statSync(caminhoCompleto);
+            
+            if (stat.isDirectory()) {
+              scanDirectory(caminhoCompleto, path.join(pastaBase, item));
+            } else if (item.endsWith('.json')) {
+              const caminhoRelativo = path.join(pastaBase, item);
+              try {
+                const dados = JSON.parse(fs.readFileSync(caminhoCompleto, 'utf8'));
+                indice.arquivos.push({
+                  caminho: caminhoRelativo.replace(/\\/g, '/'),
+                  id: dados.id,
+                  nome: dados.nome,
+                  categoria: dados.categoria,
+                  faixa: dados.faixa,
+                  tipo: dados.tipo
                 });
+                console.log(`✅ ${caminhoRelativo}`);
+              } catch (e) {
+                console.log(`❌ Erro em ${caminhoRelativo}: ${e.message}`);
+              }
             }
-
-            scanDirectory(prescricoesDir);
-            indice.totalArquivos = indice.arquivos.length;
-            
-            // Estatísticas
-            const categorias = [...new Set(indice.arquivos.map(a => a.categoria))];
-            const faixas = [...new Set(indice.arquivos.map(a => a.faixa))];
-            const tipos = [...new Set(indice.arquivos.map(a => a.tipo))];
-            
-            console.log('\n📊 ESTATÍSTICAS:');
-            console.log(`📄 Total de arquivos: ${indice.totalArquivos}`);
-            console.log(`📂 Categorias: ${categorias.join(', ')}`);
-            console.log(`👥 Faixas etárias: ${faixas.join(', ')}`);
-            console.log(`🏥 Tipos: ${tipos.join(', ')}`);
-
-            // Salva o índice
-            const indicePath = path.join(prescricoesDir, 'indice.json');
-            fs.writeFileSync(indicePath, JSON.stringify(indice, null, 2));
-            console.log(`\n💾 Índice salvo em: ${indicePath}`);
-            
-            return indice;
+          });
         }
 
-        const resultado = gerarIndice();
-        console.log(`\n🎉 Índice gerado com sucesso! ${resultado.totalArquivos} prescrições indexadas.`);
+        scanDirectory(prescricoesDir);
+        indice.totalArquivos = indice.arquivos.length;
+        
+        // Salva o índice
+        const indicePath = path.join(prescricoesDir, 'indice.json');
+        fs.writeFileSync(indicePath, JSON.stringify(indice, null, 2));
+        console.log(`💾 Índice salvo: ${indicePath}`);
+        console.log(`📊 Total: ${indice.totalArquivos} arquivos`);
         EOF
 
-        # Executa o script
-        node gerar_indice.js
-
-    - name: 💾 Commit do índice gerado
-      if: always()
+    - name: 💾 Commit e Push
       run: |
-        echo "📦 Verificando mudanças no índice..."
-        
-        if git diff --name-only | grep -q "js/prescricoes/indice.json"; then
-          echo "🔄 Índice modificado - fazendo commit..."
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add js/prescricoes/indice.json
-          git commit -m "🗂️ Atualizar índice de prescrições [bot]"
-          git push
-          echo "✅ Commit realizado!"
-        else
-          echo "ℹ️  Nenhuma mudança no índice"
-        fi
-
-    - name: 📝 Resumo do workflow
-      if: always()
-      run: |
-        echo "🎉 WORKFLOW CONCLUÍDO"
-        echo "===================="
-        echo "O índice de prescrições foi atualizado automaticamente"
-        echo "Próximos arquivos adicionados em js/prescricoes/ serão detectados automaticamente"
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add js/prescricoes/indice.json
+        git commit -m "🗂️ Atualizar índice de prescrições" || echo "Nenhuma mudança para commit"
+        git push
