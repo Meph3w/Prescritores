@@ -1,0 +1,8 @@
+{
+    "id": "dermatite-fraldas",
+    "nome": "Dermatite das Fraldas",
+    "categoria": "dermatologica",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Pasta d'água</p><p class='posologia'>Aplicar camada espessa a cada troca</p></div><div class='medicamento'><p class='dosagem'>Óxido de zinco 40%</p><p class='posologia'>Aplicar 3-4x/dia (barreira física)</p></div><div class='medicamento'><p class='dosagem'>Nistatina creme 100.000UI/g</p><p class='posologia'>Aplicar 3x/dia (candidíase associada)</p></div><div class='medicamento'><p class='dosagem'>Hidrocortisona 1% creme</p><p class='posologia'>Aplicar 2x/dia por 3-5 dias (inflamação importante)</p></div><div class='alerta'><p><strong>💡 Prevenção:</strong> trocas frequentes, limpeza suave, períodos sem fralda</p><p><strong>🔔 Retornar se:</strong> piora, lesões extensas, febre, sem melhora em 3 dias</p></div>"
+}
