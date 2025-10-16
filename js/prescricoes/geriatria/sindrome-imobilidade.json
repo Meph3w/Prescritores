@@ -1,0 +1,8 @@
+{
+    "id": "sindrome-imobilidade",
+    "nome": "Síndrome da Imobilidade no Idoso",
+    "categoria": "geriatrica",
+    "faixa": "geriatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Heparina de baixo peso molecular</p><p class='posologia'>Enoxaparina 40mg SC/dia (profilaxia TVP)</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 750mg</p><p class='posologia'>1 comp 8/8h (dor articular/muscular)</p></div><div class='medicamento'><p class='dosagem'>Laxativos</p><p class='posologia'>Lactulose 10-20ml 12/12h (constipação)</p></div><div class='alerta'><p><strong>💡 Prevenção:</strong> mobilização precoce, cuidados com pele, nutrição adequada</p><p><strong>🚨 Complicações:</strong> úlcera por pressão, pneumonia, trombose, contraturas</p></div>"
+}
