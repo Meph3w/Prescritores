@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:22:24.360Z",
+  "geradoEm": "2025-10-16T17:23:33.749Z",
   "geradoPor": "GitHub Actions",
-  "commit": "0caaf9b2804a3bccb5f2d4d731c442e2589ca7af",
+  "commit": "198d245858e82813d445400fda45b64c432878bd",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -532,6 +532,14 @@
       "tipo": "sazonal"
     },
     {
+      "caminho": "sazonal/gastroenterite-aguda.json",
+      "id": "gastroenterite-aguda",
+      "nome": "Gastrointerite Aguda",
+      "categoria": "gastrointestinal",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/influenza.json",
       "id": "influenza-sazonal",
       "nome": "Influenza Sazonal",
@@ -668,5 +676,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 83
+  "totalArquivos": 84
 }
