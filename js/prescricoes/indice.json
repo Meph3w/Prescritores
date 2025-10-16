@@ -1,13 +1,21 @@
 {
-  "geradoEm": "2025-10-16T14:13:22.646Z",
+  "geradoEm": "2025-10-16T14:13:46.069Z",
   "geradoPor": "GitHub Actions",
-  "commit": "1d1bd87f46cbdb1ae31641c10f54220c2fce2942",
+  "commit": "a2029f7b0782ff81c94cb944525773170b42bf08",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
       "id": "amigdalite-bacteriana",
       "nome": "Amigdalite Bacteriana",
       "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/artrose.json",
+      "id": "artrose-osteoartrite",
+      "nome": "Artrose/Osteoartrite",
+      "categoria": "ortopedica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -124,5 +132,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 15
+  "totalArquivos": 16
 }
