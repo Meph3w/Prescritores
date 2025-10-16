@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:26:53.858Z",
+  "geradoEm": "2025-10-16T14:27:10.996Z",
   "geradoPor": "GitHub Actions",
-  "commit": "00eeb20f9bfb7c6f74fd5397a58d18a8b6abdb42",
+  "commit": "e5749ffcc63101bdcecf1487ade05ce330761f88",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -188,6 +188,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/vertigem-posicional.json",
+      "id": "vertigem-posicional",
+      "nome": "Vertigem Posicional Paroxística Benigna",
+      "categoria": "neurologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "consulta/rinossinusite.json",
       "id": "rinossinusite",
       "nome": "Rinossinusite Aguda",
@@ -260,5 +268,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 32
+  "totalArquivos": 33
 }
