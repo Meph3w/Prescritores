@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:20:39.488Z",
+  "geradoEm": "2025-10-16T17:21:02.183Z",
   "geradoPor": "GitHub Actions",
-  "commit": "a0709e3b209bf0849ebd4f9022b91ef1799f7abf",
+  "commit": "4184bd357cc913f315d35ff06dddf4994aeea02f",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -324,6 +324,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "cronico/doenca-renal-cronica.json",
+      "id": "drc-estagio3-4",
+      "nome": "Doença Renal Crônica Estágio 3-4",
+      "categoria": "nefrologica",
+      "faixa": "adulto",
+      "tipo": "cronico"
+    },
+    {
       "caminho": "cronico/dpoc-estavel.json",
       "id": "dpoc-estavel-manutencao",
       "nome": "DPOC Estável - Manutenção",
@@ -620,5 +628,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 77
+  "totalArquivos": 78
 }
