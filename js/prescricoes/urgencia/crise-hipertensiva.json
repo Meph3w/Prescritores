@@ -1,0 +1,8 @@
+{
+    "id": "crise-hipertensiva",
+    "nome": "Crise Hipertensiva",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Captopril 25mg</p><p class='posologia'>1-2 comp sublingual, repetir em 30min se necessário</p></div><div class='medicamento'><p class='dosagem'>Amlodipino 5mg</p><p class='posologia'>1 comp VO (manutenção após controle inicial)</p></div><div class='medicamento'><p class='dosagem'>Furosemida 40mg</p><p class='posologia'>1 comp VO se sinais de sobrecarga volêmica</p></div><div class='alerta'><p><strong>🚨 ENCAMINHAR AO PS:</strong> PA > 180/120, sintomas de dano orgânico, dor torácica</p><p><strong>📊 Monitorar:</strong> PA a cada 15-30min, sinais vitais, sintomas associados</p></div>"
+}
