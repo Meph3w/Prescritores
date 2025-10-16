@@ -1,0 +1,8 @@
+{
+    "id": "delirium-agudo",
+    "nome": "Delirium Agudo no Idoso",
+    "categoria": "geriatrica",
+    "faixa": "geriatria",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Haloperidol 0,5-1mg VO/IM</p><p class='posologia'>Dose inicial, repetir a cada 30-60min se necessário</p></div><div class='medicamento'><p class='dosagem'>Risperidona 0,25-0,5mg</p><p class='posologia'>Alternativa atípica</p></div><div class='medicamento'><p class='dosagem'>Olanzapina 2,5-5mg</p><p class='posologia'>Idoso frágil, doença de Parkinson</p></div><div class='alerta'><p><strong>🔍 INVESTIGAR CAUSA:</strong> infecção, metabólica, drogas, dor, retenção urinária</p><p><strong>💡 Medidas não-farmacológicas:</strong> orientação temporal, familiar, iluminação adequada</p></div>"
+}
