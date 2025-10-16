@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:04:18.422Z",
+  "geradoEm": "2025-10-16T17:05:51.477Z",
   "geradoPor": "GitHub Actions",
-  "commit": "9be36333b9b58d64ad96a6866bde59c69c4daec2",
+  "commit": "efdc384dbdd1fa2063879be21ec00d7988d7637d",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -474,7 +474,15 @@
       "categoria": "neurologica",
       "faixa": "pediatria",
       "tipo": "urgencia"
+    },
+    {
+      "caminho": "urgencia/tsv.json",
+      "id": "taquicardia-supraventricular",
+      "nome": "Taquicardia Supraventricular Paroxística - TSVP",
+      "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 59
+  "totalArquivos": 60
 }
