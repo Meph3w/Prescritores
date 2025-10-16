@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:55:25.416Z",
+  "geradoEm": "2025-10-16T16:55:43.960Z",
   "geradoPor": "GitHub Actions",
-  "commit": "384975545747a3cdaf1d013a498b0611b27aa6c7",
+  "commit": "97e922068c9832ba1c4a3a912745ec4dfa778c64",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -196,6 +196,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/ler-dort.json",
+      "id": "ler-dort",
+      "nome": "Lesão por Esforço Repetitivo",
+      "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "adulto/pielonefrite.json",
       "id": "pielonefrite-ambulatorial",
       "nome": "Pielonefrite Aguda",
@@ -340,5 +348,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 42
+  "totalArquivos": 43
 }
