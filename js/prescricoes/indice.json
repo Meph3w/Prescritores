@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:55:12.951Z",
+  "geradoEm": "2025-10-16T16:55:25.416Z",
   "geradoPor": "GitHub Actions",
-  "commit": "6b2cc3ea017f3d74cedce49a37984fb5544f4524",
+  "commit": "384975545747a3cdaf1d013a498b0611b27aa6c7",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -152,6 +152,14 @@
       "id": "gota-aguda",
       "nome": "Gota Aguda",
       "categoria": "reumatologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/hepatite-aguda.json",
+      "id": "hepatite-aguda-viral",
+      "nome": "Hepatite Aguda Viral",
+      "categoria": "gastrointestinal",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -332,5 +340,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 41
+  "totalArquivos": 42
 }
