@@ -1,0 +1,8 @@
+{
+    "id": "angina-estavel",
+    "nome": "Angina Estável",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>AAS 100mg</p><p class='posologia'>1 comp/dia (antiagregante plaquetária)</p></div><div class='medicamento'><p class='dosagem'>Atorvastatina 40mg</p><p class='posologia'>1 comp/dia (estatinoterapia)</p></div><div class='medicamento'><p class='dosagem'>Carvedilol 6,25-25mg</p><p class='posologia'>1 comp 12/12h (β-bloqueador)</p></div><div class='medicamento'><p class='dosagem'>Isossorbida 20mg</p><p class='posologia'>1 comp 8/8h (vasodilatador)</p></div><div class='alerta'><p><strong>🚨 SCA:</strong> dor em repouso, > 20min, sudorese - procurar PS</p><p><strong>💡 Modificação fatores risco:</strong> cessar tabagismo, controle PA, diabetes, dislipidemia</p></div>"
+}
