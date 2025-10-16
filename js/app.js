@@ -6,7 +6,7 @@ let carregamentoConcluido = false;
 function formatarCategoria(categoria) {
     const categorias = {
         'respiratoria': '🫁 Respiratórias',
-        'cardiovascular': '❤️ Cardiovasculares', 
+        'cardiologica': '❤️ Cardiovasculares', 
         'neurologica': '🧠 Neurológicas',
         'gastrointestinal': '🫀 Gastrointestinais',
         'otorrinolaringologica': '👂 Otorrinolaringológicas',
@@ -20,6 +20,7 @@ function formatarCategoria(categoria) {
         'renal': '💧 Renais',
         'oftalmologica': '👁️ Oftalmológicas',
         'neonatal': '👶 Neonatal',
+        'pediatrica': '👶 Neonatal',
         'geriatria': '🧓 Geriatria'
     };
     return categorias[categoria] || categoria;
