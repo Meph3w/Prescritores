@@ -13,6 +13,7 @@ function formatarCategoria(categoria) {
         'alergica': '🤧 Alérgicas',
         'dermatologica': '🦠 Dermatológicas',
         'infecciosa': '🦠 Infecciosas',
+        'infectologica': '🦠 Infecciosas',
         'endocrina': '⚖️ Endócrinas',
         'reumatologica': '🦵 Reumatológicas',
         'psiquiatrica': '🧠 Psiquiátricas',
