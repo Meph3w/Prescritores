@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:04:58.858Z",
+  "geradoEm": "2025-10-16T14:05:42.294Z",
   "geradoPor": "GitHub Actions",
-  "commit": "a27d60a0ed39334f58fb94af9b0f1a0b9baede98",
+  "commit": "35409f2a2f3d790137a05d2b4b582ae958a63bb3",
   "arquivos": [
     {
       "caminho": "consulta/rinossinusite.json",
@@ -20,6 +20,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/tosse-produtiva.json",
+      "id": "tosse-produtiva-ped",
+      "nome": "Tosse com Secreção",
+      "categoria": "respiratoria",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "urgencia/crise-respiratoria-aguda-asma-ped.json",
       "id": "crise-respiratoria",
       "nome": "Crise Respiratória Aguda (ASMA)",
@@ -28,5 +36,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 3
+  "totalArquivos": 4
 }
