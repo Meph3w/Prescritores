@@ -1,0 +1,8 @@
+{
+    "id": "neuralgia-trigemeo",
+    "nome": "Neuralgia do Trigêmeo",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Carbamazepina 200mg</p><p class='posologia'>1 comp 8/8h, titulação gradual (máx 1200mg/dia)</p></div><div class='medicamento'><p class='dosagem'>Oxcarbazepina 300mg</p><p class='posologia'>1 comp 12/12h (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Gabapentina 300mg</p><p class='posologia'>1 comp 8/8h (segunda linha)</p></div><div class='medicamento'><p class='dosagem'>Baclofeno 10mg</p><p class='posologia'>1 comp 8/8h (associar se refratário)</p></div><div class='alerta'><p><strong>💡 Encaminhar:</strong> neurocirurgia se refratário, bloqueios, radiocirurgia</p><p><strong>🔍 Excluir:</strong> esclerose múltipla, tumor, AVC</p></div>"
+}
