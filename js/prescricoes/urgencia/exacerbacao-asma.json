@@ -1,0 +1,8 @@
+{
+    "id": "exacerbacao-asma",
+    "nome": "Exacerbação de Asma",
+    "categoria": "respiratoria",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Salbutamol spray 100mcg</p><p class='posologia'>4-8 jatos via espaçador, repetir a cada 20min se necessário</p></div><div class='medicamento'><p class='dosagem'>Brometo de ipratrópio spray 20mcg</p><p class='posologia'>4-8 jatos via espaçador (associar ao β2)</p></div><div class='medicamento'><p class='dosagem'>Prednisona 40mg</p><p class='posologia'>1 comp/dia por 5-7 dias (corticoide sistêmico)</p></div><div class='medicamento'><p class='dosagem'>Budesonida spray 200mcg</p><p class='posologia'>2 jatos 12/12h (manutenção após crise)</p></div><div class='alerta'><p><strong>🚨 ENCAMINHAR AO PS:</strong> taquipneia, tiragem, fala entrecortada, saturação < 92%</p><p><strong>📊 Monitorar:</strong> PFE, saturação, resposta à medicação</p></div>"
+}
