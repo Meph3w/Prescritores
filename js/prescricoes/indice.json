@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:05:42.294Z",
+  "geradoEm": "2025-10-16T14:06:04.654Z",
   "geradoPor": "GitHub Actions",
-  "commit": "35409f2a2f3d790137a05d2b4b582ae958a63bb3",
+  "commit": "f321764c0307471342e9f01de6638f7e1e42f709",
   "arquivos": [
     {
       "caminho": "consulta/rinossinusite.json",
@@ -16,6 +16,14 @@
       "id": "febre-sintomatica-ped",
       "nome": "Febre - Manejo Sintomático",
       "categoria": "pediatrica",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "pediatria/gastroenterite.json",
+      "id": "gastroenterite-ped",
+      "nome": "Vômitos e Diarreia",
+      "categoria": "gastrointestinal",
       "faixa": "pediatria",
       "tipo": "consulta"
     },
@@ -36,5 +44,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 4
+  "totalArquivos": 5
 }
