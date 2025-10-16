@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:07:47.788Z",
+  "geradoEm": "2025-10-16T17:08:04.179Z",
   "geradoPor": "GitHub Actions",
-  "commit": "123b4736856b1a66acf72797381b6f02e3844b9c",
+  "commit": "c766344c18593895837c2b2b3dd681ce871392fc",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -208,6 +208,14 @@
       "id": "ler-dort",
       "nome": "Lesão por Esforço Repetitivo",
       "categoria": "ortopedica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/neuralgia-trigemeo.json",
+      "id": "neuralgia-trigemeo",
+      "nome": "Neuralgia do Trigêmeo",
+      "categoria": "neurologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -516,5 +524,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 64
+  "totalArquivos": 65
 }
