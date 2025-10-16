@@ -1,0 +1,32 @@
+{
+  "geradoEm": "2025-10-16T13:25:48.985Z",
+  "geradoPor": "GitHub Actions",
+  "commit": "c762310ebb207a626e5543dd90a3ff06374213cd",
+  "arquivos": [
+    {
+      "caminho": "consulta/rinossinusite.json",
+      "id": "rinossinusite",
+      "nome": "Rinossinusite Aguda",
+      "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "consulta/teste.json",
+      "id": "teste",
+      "nome": "teste Aguda",
+      "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "urgencia/crise-respiratoria.json",
+      "id": "crise-respiratoria",
+      "nome": "Crise Respiratória Aguda (Pediatria)",
+      "categoria": "respiratoria",
+      "faixa": "pediatria",
+      "tipo": "urgencia"
+    }
+  ],
+  "totalArquivos": 3
+}
