@@ -11,107 +11,79 @@ class PrescricaoLoader {
     async carregarTodasPrescricoes() {
         if (this.carregadas) return;
         
-        console.log('🔄 Iniciando carregamento de prescrições via índice...');
+        console.log('🔄 Carregando prescrições...');
         
         try {
-            // 1. Carrega o índice gerado pelo GitHub Actions
-            this.indice = await this.carregarIndice();
-            console.log(`📋 Índice carregado: ${this.indice.totalArquivos} arquivos`);
-            
-            // 2. Carrega cada prescrição listada no índice
-            for (const item of this.indice.arquivos) {
-                await this.carregarPrescricaoIndividual(item.caminho, item);
-            }
-            
-            // 3. Extrai categorias, faixas e tipos DOS DADOS reais carregados
-            this.extrairMetadadosDinamicamente();
-            
-            // 4. Atualiza a interface
-            this.atualizarInterface();
-            
-            this.carregadas = true;
-            console.log('🎉 Carregamento via índice concluído!', this.getEstatisticas());
-            
+            await this.carregarViaIndice();
         } catch (error) {
-            console.error('❌ Erro ao carregar prescrições:', error);
-            this.mostrarErroInterface();
-            throw error;
+            console.warn('❌ Índice não disponível, usando fallback...');
+            await this.carregarViaFallback();
+        }
+        
+        this.extrairMetadados();
+        this.atualizarInterface();
+        this.carregadas = true;
+        
+        console.log('🎉 Sistema carregado!', this.getEstatisticas());
+    }
+
+    async carregarViaIndice() {
+        const response = await fetch('./js/prescricoes/indice.json');
+        if (!response.ok) throw new Error('Índice não encontrado');
+        
+        this.indice = await response.json();
+        console.log(`📋 Índice: ${this.indice.totalArquivos} arquivos`);
+        
+        for (const item of this.indice.arquivos) {
+            await this.carregarArquivo(item.caminho);
         }
     }
 
-    async carregarIndice() {
-        try {
-            const response = await fetch('./js/prescricoes/indice.json');
-            
-            if (!response.ok) {
-                throw new Error(`Índice não encontrado (${response.status})`);
-            }
-            
-            const indice = await response.json();
-            
-            if (!indice.arquivos || !Array.isArray(indice.arquivos)) {
-                throw new Error('Índice inválido ou corrompido');
-            }
-            
-            return indice;
-            
-        } catch (error) {
-            console.error('❌ Erro ao carregar índice:', error);
-            throw new Error('Execute o workflow para gerar o índice primeiro');
+    async carregarViaFallback() {
+        const arquivos = [
+            'urgencia/crise-respiratoria.json',
+            'urgencia/asma-aguda.json',
+            'consulta/rinossinusite.json'
+        ];
+        
+        for (const caminho of arquivos) {
+            await this.carregarArquivo(caminho);
         }
     }
 
-    async carregarPrescricaoIndividual(caminhoArquivo, metadadosIndice) {
+    async carregarArquivo(caminho) {
         try {
-            const response = await fetch(`./js/prescricoes/${caminhoArquivo}`);
-            
-            if (!response.ok) {
-                throw new Error(`Arquivo não encontrado: ${response.status}`);
-            }
+            const response = await fetch(`./js/prescricoes/${caminho}`);
+            if (!response.ok) return;
             
             const prescricao = await response.json();
             
-            // Validação básica dos dados
-            if (!prescricao.id || !prescricao.nome || !prescricao.conteudo) {
-                console.warn(`⚠️ Prescrição incompleta: ${caminhoArquivo}`);
-                return;
+            // PREVENÇÃO DE DUPLICAÇÃO - verifica se já existe
+            if (!this.prescricoes.todas.find(p => p.id === prescricao.id)) {
+                const prescricaoCompleta = {
+                    ...prescricao,
+                    categoriaArquivo: caminho.split('/')[0],
+                    arquivoOrigem: caminho
+                };
+                
+                this.prescricoes.todas.push(prescricaoCompleta);
+                console.log(`✅ ${prescricao.nome}`);
             }
             
-            // Adiciona metadados de arquivo
-            const [categoriaArquivo] = caminhoArquivo.split('/');
-            const prescricaoCompleta = {
-                ...prescricao,
-                categoriaArquivo: categoriaArquivo,
-                arquivoOrigem: caminhoArquivo,
-                carregadoEm: new Date().toISOString()
-            };
-            
-            this.prescricoes.todas.push(prescricaoCompleta);
-            console.log(`✅ Carregado: ${prescricao.nome}`);
-            
         } catch (error) {
-            console.warn(`⚠️ Erro ao carregar ${caminhoArquivo}:`, error.message);
-            // Não propaga o erro para não parar o carregamento de outras prescrições
+            console.warn(`⚠️ ${caminho}:`, error.message);
         }
     }
 
-    extrairMetadadosDinamicamente() {
-        // Limpa os sets antes de extrair
+    extrairMetadados() {
         this.categoriasUnicas.clear();
         this.faixasUnicas.clear();
         this.tiposUnicos.clear();
         
-        // Extrai categorias, faixas e tipos DOS DADOS REAIS carregados
         this.prescricoes.todas.forEach(prescricao => {
             if (prescricao.categoria) this.categoriasUnicas.add(prescricao.categoria);
             if (prescricao.faixa) this.faixasUnicas.add(prescricao.faixa);
             if (prescricao.tipo) this.tiposUnicos.add(prescricao.tipo);
-        });
-        
-        console.log('📊 Metadados extraídos dinamicamente:', {
-            categorias: [...this.categoriasUnicas],
-            faixas: [...this.faixasUnicas], 
-            tipos: [...this.tiposUnicos]
         });
     }
 
@@ -123,14 +95,12 @@ class PrescricaoLoader {
 
     popularSelectPrescricoes() {
         const select = document.getElementById('prescription-select');
-        if (!select) {
-            console.warn('⚠️ Elemento prescription-select não encontrado');
-            return;
-        }
+        if (!select) return;
         
+        // Limpa completamente para evitar duplicação
         select.innerHTML = '<option value="">Selecione uma prescrição...</option>';
         
-        // Agrupa por categoria dos dados reais
+        // AGRUPAMENTO POR CATEGORIA
         const prescricoesPorCategoria = {};
         this.prescricoes.todas.forEach(prescricao => {
             const categoria = prescricao.categoria || 'Geral';
@@ -143,13 +113,13 @@ class PrescricaoLoader {
         // Cria os grupos
         Object.entries(prescricoesPorCategoria).forEach(([categoria, prescricoes]) => {
             const group = document.createElement('optgroup');
-            group.label = categoria.toUpperCase();
+            group.label = this.formatarCategoria(categoria);
             
             prescricoes.forEach(prescricao => {
                 const option = document.createElement('option');
                 option.value = prescricao.id;
                 option.textContent = prescricao.nome;
-                option.setAttribute('data-categoria', categoria);
+                option.setAttribute('data-categoria', prescricao.categoria || '');
                 option.setAttribute('data-faixa', prescricao.faixa || '');
                 option.setAttribute('data-tipo', prescricao.tipo || '');
                 group.appendChild(option);
@@ -158,27 +128,33 @@ class PrescricaoLoader {
             select.appendChild(group);
         });
         
-        // Adiciona evento de change
-        select.addEventListener('change', (e) => {
-            this.onPrescricaoSelecionada(e.target.value);
-        });
-        
-        console.log(`📝 Select populado: ${this.prescricoes.todas.length} opções`);
+        // EVENTOS FUNCIONAIS - apenas uma vez
+        if (!select._hasChangeEvent) {
+            select.addEventListener('change', (e) => {
+                this.onPrescricaoSelecionada(e.target.value);
+            });
+            select._hasChangeEvent = true;
+        }
+    }
+
+    formatarCategoria(categoria) {
+        const formatos = {
+            'respiratoria': 'Respiratórias',
+            'cardiologica': 'Cardiológicas',
+            'pediatria': 'Pediatria',
+            'adulto': 'Adulto',
+            'urgencia': 'Urgências',
+            'consulta': 'Consultas'
+        };
+        return formatos[categoria] || categoria;
     }
 
     onPrescricaoSelecionada(idPrescricao) {
         if (!idPrescricao) return;
         
         const prescricao = this.buscarPorId(idPrescricao);
-        if (prescricao) {
-            console.log(`🎯 Prescrição selecionada: ${prescricao.nome}`);
-            
-            // Chama a função global para preencher o formulário
-            if (window.fillPrescriptionForm) {
-                window.fillPrescriptionForm(prescricao);
-            } else {
-                console.warn('⚠️ Função fillPrescriptionForm não encontrada');
-            }
+        if (prescricao && window.fillPrescriptionForm) {
+            window.fillPrescriptionForm(prescricao);
         }
     }
 
@@ -186,8 +162,6 @@ class PrescricaoLoader {
         this.popularSelectFiltro('filter-category', [...this.categoriasUnicas], 'Todas as Categorias');
         this.popularSelectFiltro('filter-age', [...this.faixasUnicas], 'Todas as Idades');
         this.popularSelectFiltro('filter-type', [...this.tiposUnicos], 'Todos os Tipos');
-        
-        // Adiciona eventos aos filtros
         this.configurarEventosFiltros();
     }
 
@@ -205,12 +179,11 @@ class PrescricaoLoader {
     }
 
     configurarEventosFiltros() {
-        const filtros = ['filter-category', 'filter-age', 'filter-type'];
-        
-        filtros.forEach(id => {
+        ['filter-category', 'filter-age', 'filter-type'].forEach(id => {
             const select = document.getElementById(id);
-            if (select) {
+            if (select && !select._hasChangeEvent) {
                 select.addEventListener('change', () => this.aplicarFiltros());
+                select._hasChangeEvent = true;
             }
         });
     }
@@ -223,10 +196,9 @@ class PrescricaoLoader {
         const select = document.getElementById('prescription-select');
         if (!select) return;
         
-        // Mostra/oculta opções baseado nos filtros
         const options = select.querySelectorAll('option');
         options.forEach(option => {
-            if (!option.value) return; // Pula a opção padrão
+            if (!option.value) return;
             
             const matchCategoria = !categoria || option.getAttribute('data-categoria') === categoria;
             const matchFaixa = !faixa || option.getAttribute('data-faixa') === faixa;
@@ -235,38 +207,25 @@ class PrescricaoLoader {
             option.style.display = (matchCategoria && matchFaixa && matchTipo) ? '' : 'none';
         });
         
-        // Reseta a seleção se a opção atual ficou oculta
         if (select.value && select.options[select.selectedIndex].style.display === 'none') {
             select.value = '';
         }
-        
-        console.log(`🔍 Filtros aplicados: Categoria=${categoria}, Faixa=${faixa}, Tipo=${tipo}`);
     }
 
     atualizarContadores() {
-        // Atualiza contadores na interface se existirem
-        const elementosContador = {
+        const elementos = {
             'total-prescriptions': this.prescricoes.todas.length,
             'total-categories': this.categoriasUnicas.size,
             'total-age-groups': this.faixasUnicas.size
         };
         
-        Object.entries(elementosContador).forEach(([id, valor]) => {
+        Object.entries(elementos).forEach(([id, valor]) => {
             const elemento = document.getElementById(id);
-            if (elemento) {
-                elemento.textContent = valor;
-            }
+            if (elemento) elemento.textContent = valor;
         });
     }
 
-    mostrarErroInterface() {
-        const select = document.getElementById('prescription-select');
-        if (select) {
-            select.innerHTML = '<option>Erro ao carregar prescrições. Execute o workflow para gerar o índice.</option>';
-        }
-    }
-
-    // Métodos de consulta
+    // MÉTODOS DE CONSULTA
     getPrescricoes() {
         return this.prescricoes;
     }
@@ -305,7 +264,7 @@ class PrescricaoLoader {
         };
     }
 
-    // Método para debug
+    // MÉTODOS DE DEBUG
     debugInfo() {
         return {
             indice: this.indice,
@@ -323,23 +282,29 @@ class PrescricaoLoader {
             }
         };
     }
+
+    verificarDuplicatas() {
+        const ids = this.prescricoes.todas.map(p => p.id);
+        const duplicatas = ids.filter((id, index) => ids.indexOf(id) !== index);
+        
+        if (duplicatas.length > 0) {
+            console.warn('⚠️ Duplicatas:', duplicatas);
+            return false;
+        }
+        console.log('✅ Sem duplicatas');
+        return true;
+    }
 }
 
-// Instância global e inicialização automática
+// Instância global
 const loader = new PrescricaoLoader();
 
-// Inicializar quando a página carregar
-document.addEventListener('DOMContentLoaded', async function() {
-    console.log('🚀 Inicializando sistema de prescrições...');
-    
-    try {
-        await loader.carregarTodasPrescricoes();
-        console.log('✅ Sistema de prescrições inicializado com sucesso!');
-    } catch (error) {
-        console.error('❌ Falha na inicialização:', error);
-    }
+// Inicialização
+document.addEventListener('DOMContentLoaded', async () => {
+    console.log('🚀 Iniciando sistema...');
+    await loader.carregarTodasPrescricoes();
+    loader.verificarDuplicatas(); // Debug
 });
 
-// Exportar para uso global
 window.PrescricaoLoader = PrescricaoLoader;
 window.loader = loader;
