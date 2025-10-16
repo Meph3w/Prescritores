@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:07:13.922Z",
+  "geradoEm": "2025-10-16T14:11:23.229Z",
   "geradoPor": "GitHub Actions",
-  "commit": "a57414ea1c4fab26e1a9d2482863de7bdb54956a",
+  "commit": "3ea1bde27b63c26c6971b1511448a63489481f0e",
   "arquivos": [
     {
       "caminho": "adulto/diabetes-tipo2.json",
@@ -24,6 +24,14 @@
       "id": "hipertensao-adulto",
       "nome": "Hipertensão Arterial",
       "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/sinusite-aguda.json",
+      "id": "sinusite-aguda",
+      "nome": "Sinusite Aguda",
+      "categoria": "respiratoria",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -76,5 +84,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 9
+  "totalArquivos": 10
 }
