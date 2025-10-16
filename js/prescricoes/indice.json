@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:24:59.246Z",
+  "geradoEm": "2025-10-16T14:25:16.879Z",
   "geradoPor": "GitHub Actions",
-  "commit": "f528ea38a57c920b6e7ac2302be286eed23327f3",
+  "commit": "81bc7e15a0ca71a473d0c3f7ba1ffb8395e05dce",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -156,6 +156,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/bronquiolite.json",
+      "id": "bronquiolite-ped",
+      "nome": "Bronquiolite",
+      "categoria": "respiratoria",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/febre-sintomatica.json",
       "id": "febre-sintomatica-ped",
       "nome": "Febre - Manejo Sintomático",
@@ -212,5 +220,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 26
+  "totalArquivos": 27
 }
