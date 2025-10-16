@@ -1,0 +1,8 @@
+{
+    "id": "gastroenterite-desidratacao",
+    "nome": "Gastroenterite com Desidratação Leve",
+    "categoria": "gastrointestinal",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Soro de reidratação oral</p><p class='posologia'>50-100ml após cada evacuação/vômito</p></div><div class='medicamento'><p class='dosagem'>Racecadotrilo 10mg</p><p class='posologia'>1,5mg/kg/dose, 8/8h por 3-5 dias</p></div><div class='medicamento'><p class='dosagem'>Zinco 20mg</p><p class='posologia'>1 comp/dia por 10-14 dias (< 6 meses: 10mg)</p></div><div class='medicamento'><p class='dosagem'>Probióticos (Lactobacillus)</p><p class='posologia'>1 sachê/dia por 5-7 dias</p></div><div class='alerta'><p><strong>🚨 INTERNAR SE:</strong> desidratação moderada/grave, vômitos incoercíveis, sinais de alarme</p><p><strong>💡 Dieta:</strong> oferta líquida frequente, dieta habitual, evitar sucos/lácteos</p></div>"
+}
