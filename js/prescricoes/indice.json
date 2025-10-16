@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:06:15.218Z",
+  "geradoEm": "2025-10-16T17:06:30.257Z",
   "geradoPor": "GitHub Actions",
-  "commit": "b52ebea6eab68c3441b79901a41c5e642250003e",
+  "commit": "810a88b9dcfd10a5015f166f8287dc2584313934",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -468,6 +468,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "urgencia/pancreatite-aguda.json",
+      "id": "pancreatite-aguda",
+      "nome": "Pancreatite Aguda",
+      "categoria": "gastrointestinal",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/sca.json",
       "id": "sindrome-coronariana-aguda",
       "nome": "Síndrome Coronariana Aguda",
@@ -492,5 +500,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 61
+  "totalArquivos": 62
 }
