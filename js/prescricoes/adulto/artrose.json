@@ -1,0 +1,8 @@
+{
+    "id": "artrose-osteoartrite",
+    "nome": "Artrose/Osteoartrite",
+    "categoria": "ortopedica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Dipirona 500mg</p><p class='posologia'>1-2 comp 6/6h se necessário</p></div><div class='medicamento'><p class='dosagem'>Cetoprofeno 100mg</p><p class='posologia'>1 comp 12/12h por 7-10 dias (crises agudas)</p></div><div class='medicamento'><p class='dosagem'>Condroitina+Glicosamina</p><p class='posologia'>1 comp 12/12h (tratamento de base)</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 750mg</p><p class='posologia'>1 comp 8/8h (analgesia contínua)</p></div><div class='alerta'><p><strong>🔔 Reavaliar se:</strong> dor incapacitante, deformidade articular, sinais inflamatórios</p><p><strong>💡 Medidas:</strong> exercícios de baixo impacto, controle peso, fisioterapia</p></div>"
+}
