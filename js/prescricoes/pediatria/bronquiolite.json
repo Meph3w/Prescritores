@@ -1,0 +1,8 @@
+{
+    "id": "bronquiolite-ped",
+    "nome": "Bronquiolite",
+    "categoria": "respiratoria",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Lavagem nasal com SF 0,9%</p><p class='posologia'>2-3ml/narina 4-6x/dia antes alimentação</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 200mg/ml</p><p class='posologia'>1-2 gotas/kg/dose 6/6h se febre/dor</p></div><div class='medicamento'><p class='dosagem'>Ibuprofeno 100mg/5ml</p><p class='posologia'>5-10mg/kg/dose 8/8h (alternativa antipirética)</p></div><div class='alerta'><p><strong>🚨 INTERNAR SE:</strong> < 3 meses, saturação < 92%, taquipneia, tiragem, prostração</p><p><strong>💡 Manejo:</strong> hidratação oral fracionada, posição semi-sentada, evitar fumaça</p></div>"
+}
