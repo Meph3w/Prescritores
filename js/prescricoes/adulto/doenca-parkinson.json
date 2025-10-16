@@ -1,0 +1,8 @@
+{
+    "id": "doenca-parkinson",
+    "nome": "Doença de Parkinson",
+    "categoria": "neurologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Levodopa/Benserazida 100/25mg</p><p class='posologia'>1 comp 6/6-8h (dose inicial)</p></div><div class='medicamento'><p class='dosagem'>Pramipexol 0,125mg</p><p class='posologia'>1 comp 8/8h (agonista dopaminérgico)</p></div><div class='medicamento'><p class='dosagem'>Selegilina 5mg</p><p class='posologia'>1 comp 12/12h (inibidor MAO-B)</p></div><div class='medicamento'><p class='dosagem'>Amantadina 100mg</p><p class='posologia'>1 comp 12/12h (discinesias)</p></div><div class='alerta'><p><strong>💡 Abordagem multidisciplinar:</strong> fisioterapia, fonoaudiologia, terapia ocupacional</p><p><strong>📅 Acompanhamento:</strong> ajuste gradual, efeitos adversos, complicações motoras</p></div>"
+}
