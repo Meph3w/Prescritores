@@ -1,0 +1,8 @@
+{
+    "id": "demencia-alzheimer",
+    "nome": "Demência/Doença de Alzheimer",
+    "categoria": "neurologica",
+    "faixa": "geriatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Donepezila 5mg</p><p class='posologia'>1 comp/dia, aumentar para 10mg após 4-6 semanas</p></div><div class='medicamento'><p class='dosagem'>Memantina 10mg</p><p class='posologia'>1 comp/dia, aumentar para 20mg (moderada/grave)</p></div><div class='medicamento'><p class='dosagem'>Rivastigmina 1,5mg</p><p class='posologia'>1 comp 12/12h, titulação gradual (alternativa)</p></div><div class='alerta'><p><strong>💡 Abordagem não-farmacológica:</strong> estimulação cognitiva, rotina estruturada, segurança domiciliar</p><p><strong>📅 Acompanhamento:</strong> reavaliação a cada 6 meses, suporte ao cuidador</p></div>"
+}
