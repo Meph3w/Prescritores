@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:21:26.352Z",
+  "geradoEm": "2025-10-16T17:21:37.779Z",
   "geradoPor": "GitHub Actions",
-  "commit": "1d641fd82b64fadff2010063be841e16c09a597b",
+  "commit": "38aacf90592643ca86214ecb7151a817a1361427",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -356,6 +356,14 @@
       "tipo": "cronico"
     },
     {
+      "caminho": "cronico/osteoporose-pos-menopausa.json",
+      "id": "osteoporose-pos-menopausa",
+      "nome": "Osteoporose Pós-Menopausa",
+      "categoria": "reumatologica",
+      "faixa": "adulto",
+      "tipo": "cronico"
+    },
+    {
       "caminho": "geriatria/delirium-agudo.json",
       "id": "delirium-agudo",
       "nome": "Delirium Agudo no Idoso",
@@ -636,5 +644,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 79
+  "totalArquivos": 80
 }
