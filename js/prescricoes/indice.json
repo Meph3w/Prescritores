@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:26:36.830Z",
+  "geradoEm": "2025-10-16T14:26:53.858Z",
   "geradoPor": "GitHub Actions",
-  "commit": "1ecd5998c498386f8af0695e6a0ed28d1792dae5",
+  "commit": "00eeb20f9bfb7c6f74fd5397a58d18a8b6abdb42",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -148,6 +148,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/hipotireoidismo.json",
+      "id": "hipotireoidismo",
+      "nome": "Hipotireoidismo",
+      "categoria": "endocrina",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "adulto/insonia.json",
       "id": "insonia-aguda",
       "nome": "Insônia Aguda",
@@ -252,5 +260,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 31
+  "totalArquivos": 32
 }
