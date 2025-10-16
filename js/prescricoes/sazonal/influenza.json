@@ -1,0 +1,8 @@
+{
+    "id": "influenza-sazonal",
+    "nome": "Influenza Sazonal",
+    "categoria": "infectologica",
+    "faixa": "adulto",
+    "tipo": "sazonal",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Oseltamivir 75mg</p><p class='posologia'>1 comp 12/12h por 5 dias (iniciar em 48h)</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 750mg</p><p class='posologia'>1 comp 8/8h (febre/mialgia)</p></div><div class='medicamento'><p class='dosagem'>Ibuprofeno 600mg</p><p class='posologia'>1 comp 8/8h (alternativa AINE)</p></div><div class='medicamento'><p class='dosagem'>Xarope expectorante</p><p class='posologia'>10ml 8/8h (tosse produtiva)</p></div><div class='alerta'><p><strong>💡 Isolamento:</strong> 5-7 dias, higiene respiratória, hidratação</p><p><strong>🚨 Complicações:</strong> pneumonia, dispneia, piora comorbidades</p></div>"
+}
