@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:21:02.183Z",
+  "geradoEm": "2025-10-16T17:21:26.352Z",
   "geradoPor": "GitHub Actions",
-  "commit": "4184bd357cc913f315d35ff06dddf4994aeea02f",
+  "commit": "1d641fd82b64fadff2010063be841e16c09a597b",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -340,6 +340,14 @@
       "tipo": "cronico"
     },
     {
+      "caminho": "cronico/epilepsia-adulto.json",
+      "id": "epilepsia-manutencao",
+      "nome": "Epilepsia - Tratamento de Manutenção",
+      "categoria": "neurologica",
+      "faixa": "adulto",
+      "tipo": "cronico"
+    },
+    {
       "caminho": "cronico/insuficiencia-cardiaca.json",
       "id": "ic-cronica",
       "nome": "Insuficiência Cardíaca Crônica",
@@ -628,5 +636,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 78
+  "totalArquivos": 79
 }
