@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:27:36.827Z",
+  "geradoEm": "2025-10-16T14:27:56.669Z",
   "geradoPor": "GitHub Actions",
-  "commit": "65debe76a356073f98383115350cfa9dc63c6ad3",
+  "commit": "1991edc6a19659591e2f5d815a0d922585ca80c5",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -282,7 +282,15 @@
       "categoria": "respiratoria",
       "faixa": "adulto",
       "tipo": "urgencia"
+    },
+    {
+      "caminho": "urgencia/sca.json",
+      "id": "sindrome-coronariana-aguda",
+      "nome": "Síndrome Coronariana Aguda",
+      "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 35
+  "totalArquivos": 36
 }
