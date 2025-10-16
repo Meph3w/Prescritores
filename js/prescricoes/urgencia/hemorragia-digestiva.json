@@ -1,0 +1,8 @@
+{
+    "id": "hemorragia-digestiva-alta",
+    "nome": "Hemorragia Digestiva Alta",
+    "categoria": "gastrointestinal",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Omeprazol 80mg IV</p><p class='posologia'>Bolus + 8mg/h (inibidor de bomba de prótons)</p></div><div class='medicamento'><p class='dosagem'>Octreotide 50mcg IV</p><p class='posologia'>Bolus + 25-50mcg/h (varizes esofágicas)</p></div><div class='medicamento'><p class='dosagem'>Terlipressina 2mg IV</p><p class='posologia'>4/6h (vasopressina - cirrose)</p></div><div class='alerta'><p><strong>🚨 INTERNAR UTI:</strong> instabilidade hemodinâmica, sangramento ativo, comorbidades</p><p><strong>📊 Risco:</strong> escala de Rockall, endoscopia urgente, proteção via aérea</p></div>"
+}
