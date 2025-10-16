@@ -1,0 +1,8 @@
+{
+    "id": "taquicardia-supraventricular",
+    "nome": "Taquicardia Supraventricular Paroxística - TSVP",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Manobra de Valsalva Modificada</p><p class='posologia'>Assoprar seringa de 10mL por 15 segundos, elevar MMII após e verificar monitor</p></div><div class='medicamento'><p class='dosagem'>Adenosina 6-12mg IV</p><p class='posologia'>Bolus rápido (manobra vagal prévia)</p></div><div class='medicamento'><p class='dosagem'>Propranolol 10-40mg</p><p class='posologia'>1 comp 8/8h (profilaxia)</p></div><div class='medicamento'><p class='dosagem'>Verapamil 40-80mg</p><p class='posologia'>1 comp 8/8h (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Diltiazem 60-120mg</p><p class='posologia'>1 comp 12/12h (bloqueador de canal de cálcio)</p></div><div class='alerta'><p><strong>🚨 CARDIOVERSÃO:</strong> instabilidade hemodinâmica, dor torácica, IC</p><p><strong>💡 Manobras vagais:</strong> Valsalva, massagem carotídea, imersão facial em água fria</p></div>"
+}
