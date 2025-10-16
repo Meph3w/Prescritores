@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: transparent;
+    background-color: #f5f7fa;
     color: #2c3e50;
     line-height: 1.6;
 }
@@ -17,7 +17,7 @@ body {
     background-color: #ffffff;
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 .header {
@@ -63,15 +63,17 @@ select, input {
     width: 100%;
     padding: 12px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     margin-bottom: 15px;
     font-size: 16px;
-    transition: border-color 0.3s;
+    transition: all 0.3s;
+    background: white;
 }
 
 select:focus, input:focus {
     border-color: #6369D1;
     outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 105, 209, 0.1);
 }
 
 button {
@@ -84,7 +86,7 @@ button {
     font-size: 16px;
     width: 100%;
     margin: 10px 0;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,6 +95,7 @@ button {
 
 button:hover {
     background-color: #4b52b0;
+    transform: translateY(-2px);
 }
 
 .resultado {
@@ -140,6 +143,7 @@ footer {
     margin-top: 30px;
     padding: 20px;
     color: #6c757d;
+    font-size: 14px;
 }
 
 footer a {
@@ -152,17 +156,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
-#editor-container {
-    margin: 20px 0;
-}
-
 #editor {
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     min-height: 400px;
     margin: 15px 0;
     line-height: 1.8;
+    background: white;
 }
 
 .toolbar {
@@ -180,6 +181,11 @@ footer a:hover {
     padding: 8px 12px;
     font-size: 14px;
     margin: 0;
+    background: #6c757d;
+}
+
+.toolbar button:hover {
+    background: #5a6268;
 }
 
 .assinatura {
@@ -217,60 +223,23 @@ footer a:hover {
     background-color: #138496;
 }
 
-.btn-limpar {
-    background-color: #6c757d;
-}
-
-.btn-limpar:hover {
-    background-color: #5a6268;
-}
-
-.prescricao-item {
-    padding: 12px;
-    border-radius: 8px;
-    margin: 8px 0;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    border-left: 4px solid #6369D1;
-}
-
-.prescricao-item:hover {
-    background-color: #f0f2ff;
-}
-
-.prescricao-item.emergencia {
-    border-left-color: #dc3545;
-}
-
-.prescricao-item.urgencia {
-    border-left-color: #fd7e14;
-}
-
-.prescricao-item.eletiva {
-    border-left-color: #198754;
-}
-
-.categoria-titulo {
-    color: #6369D1;
-    margin: 20px 0 10px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #e9ecef;
-}
-
 .medicamento {
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px;
     background: #f8f9fa;
-    border-radius: 6px;
+    border-radius: 8px;
+    border-left: 4px solid #6369D1;
 }
 
 .dosagem {
     font-weight: bold;
     color: #2c3e50;
+    font-size: 16px;
 }
 
 .posologia {
     color: #495057;
+    margin-top: 4px;
 }
 
 .quick-actions {
@@ -287,10 +256,13 @@ footer a:hover {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.2s;
+    color: #495057;
+    font-size: 14px;
 }
 
 .quick-btn:hover {
     background: #dee2e6;
+    transform: none;
 }
 
 .hidden {
@@ -344,6 +316,12 @@ footer a:hover {
     border-bottom: none;
 }
 
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #6c757d;
+}
+
 @media (max-width: 768px) {
     .filtros {
         grid-template-columns: 1fr;
@@ -356,5 +334,9 @@ footer a:hover {
     .container {
         margin: 10px;
         padding: 15px;
+    }
+    
+    .toolbar {
+        justify-content: center;
     }
 }
