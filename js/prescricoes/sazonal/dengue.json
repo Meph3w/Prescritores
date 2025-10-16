@@ -1,0 +1,8 @@
+{
+    "id": "dengue-aguda",
+    "nome": "Dengue - Manejo Ambulatorial",
+    "categoria": "infectologica",
+    "faixa": "adulto",
+    "tipo": "sazonal",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Hidratação oral</p><p class='posologia'>3-4L/dia (soro caseiro, água, sucos)</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 500mg</p><p class='posologia'>1-2 comp 6/6h (máx 3g/dia)</p></div><div class='medicamento'><p class='dosagem'>Dipirona 500mg</p><p class='posologia'>1 comp 6/6h (alternativa analgésica)</p></div><div class='alerta'><p><strong>🚨 NUNCA USAR:</strong> AINEs, ácido acetilsalicílico (risco hemorragia)</p><p><strong>🚨 SINAIS DE ALARMA:</strong> dor abdominal, vômitos, sangramentos, hipotensão - INTERNAR</p><p><strong>💡 Repouso:</strong> absoluto, monitorização diária, retorno em 24-48h</p></div>"
+}
