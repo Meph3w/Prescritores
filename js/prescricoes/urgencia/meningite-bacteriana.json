@@ -1,0 +1,8 @@
+{
+    "id": "meningite-bacteriana",
+    "nome": "Meningite Bacteriana Aguda",
+    "categoria": "infectologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Ceftriaxona 2g IV</p><p class='posologia'>12/12h + Vancomicina 15-20mg/kg IV 8/8h</p></div><div class='medicamento'><p class='dosagem'>Ampicilina 2g IV</p><p class='posologia'>4/4h (> 50 anos, imunossuprimidos - Listeria)</p></div><div class='medicamento'><p class='dosagem'>Dexametasona 0,15mg/kg IV</p><p class='posologia'>6/6h por 4 dias (iniciar com antibioticoterapia)</p></div><div class='alerta'><p><strong>🚨 INTERNAÇÃO UTI:</strong> antibioticoterapia em 1h, isolamento respiratório, monitorização neurológica</p><p><strong>🔍 Diagnóstico:</strong> punção lombar, cultura, PCR</p></div>"
+}
