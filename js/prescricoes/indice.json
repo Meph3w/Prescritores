@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:22:55.622Z",
+  "geradoEm": "2025-10-16T14:23:27.578Z",
   "geradoPor": "GitHub Actions",
-  "commit": "2aa82c3ed7abfaf4cbd840f3b5b7875ef605bc00",
+  "commit": "46f57030064f5ef525931c1ae4d52084a2a49366",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -48,6 +48,14 @@
       "id": "constipacao-intestinal",
       "nome": "Constipação Intestinal",
       "categoria": "gastrointestinal",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/dermatite-contato.json",
+      "id": "dermatite-contato",
+      "nome": "Dermatite de Contato",
+      "categoria": "dermatologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -162,7 +170,15 @@
       "categoria": "respiratoria",
       "faixa": "pediatria",
       "tipo": "urgencia"
+    },
+    {
+      "caminho": "urgencia/exacerbacao-asma.json",
+      "id": "exacerbacao-asma",
+      "nome": "Exacerbação de Asma",
+      "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 20
+  "totalArquivos": 22
 }
