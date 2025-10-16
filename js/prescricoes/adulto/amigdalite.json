@@ -1,0 +1,8 @@
+{
+    "id": "amigdalite-bacteriana",
+    "nome": "Amigdalite Bacteriana",
+    "categoria": "infectologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Amoxicilina 500mg</p><p class='posologia'>1 comp 8/8h por 10 dias</p></div><div class='medicamento'><p class='dosagem'>Azitromicina 500mg</p><p class='posologia'>1 comp/dia por 3 dias (alternativa penicilina)</p></div><div class='medicamento'><p class='dosagem'>Benzetacil 1.200.000 UI</p><p class='posologia'>1 dose IM (opção single-dose)</p></div><div class='medicamento'><p class='dosagem'>Dipirona 500mg</p><p class='posologia'>1-2 comp 6/6h se dor/fe</p></div><div class='alerta'><p><strong>🚨 Urgência se:</strong> dificuldade para deglutir, respirar, abscesso periamigdaliano</p><p><strong>💡 Recomendações:</strong> repouso vocal, hidratação, dieta pastosa</p></div>"
+}
