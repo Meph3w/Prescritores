@@ -1,0 +1,8 @@
+{
+    "id": "constipacao-intestinal",
+    "nome": "Constipação Intestinal",
+    "categoria": "gastrointestinal",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Lactulose 10g/15ml</p><p class='posologia'>15-30ml/dia, ajustar conforme resposta</p></div><div class='medicamento'><p class='dosagem'>Psyllium 3,5g</p><p class='posologia'>1 sachê 1-3x/dia com 200ml água</p></div><div class='medicamento'><p class='dosagem'>Docusato sódico 100mg</p><p class='posologia'>1-2 comp/dia (emoliente fecal)</p></div><div class='medicamento'><p class='dosagem'>Óleo mineral</p><p class='posologia'>15-45ml/dia (lubrificante intestinal)</p></div><div class='alerta'><p><strong>🔔 Investigar se:</strong> início recente, sangramento, perda peso, idade > 50 anos</p><p><strong>💡 Medidas:</strong> aumento fibras, hidratação, exercícios, horário regular</p></div>"
+}
