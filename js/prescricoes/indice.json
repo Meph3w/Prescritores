@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:54:17.629Z",
+  "geradoEm": "2025-10-16T16:54:36.945Z",
   "geradoPor": "GitHub Actions",
-  "commit": "180bce6856399b6431b1c0da754ce04a50b019c0",
+  "commit": "79edad039019acaf39ff2cb731f2859347abbb2c",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -300,6 +300,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "urgencia/ic-descompensada.json",
+      "id": "ic-descompensada",
+      "nome": "Insuficiência Cardíaca Aguda",
+      "categoria": "cardiologica",
+      "faixa": "adulto",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "urgencia/sca.json",
       "id": "sindrome-coronariana-aguda",
       "nome": "Síndrome Coronariana Aguda",
@@ -308,5 +316,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 38
+  "totalArquivos": 39
 }
