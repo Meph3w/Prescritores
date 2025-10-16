@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:59:41.118Z",
+  "geradoEm": "2025-10-16T16:59:56.196Z",
   "geradoPor": "GitHub Actions",
-  "commit": "abf4036757995c88bc2c62d6db3afb3706361a18",
+  "commit": "76d5136411d88be25a8829e64efe6f582a3e2185",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -308,6 +308,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/dermatite-fraldas.json",
+      "id": "dermatite-fraldas",
+      "nome": "Dermatite das Fraldas",
+      "categoria": "dermatologica",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/febre-sintomatica.json",
       "id": "febre-sintomatica-ped",
       "nome": "Febre - Manejo Sintomático",
@@ -412,5 +420,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 51
+  "totalArquivos": 52
 }
