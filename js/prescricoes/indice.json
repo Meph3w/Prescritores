@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:13:46.069Z",
+  "geradoEm": "2025-10-16T14:14:16.063Z",
   "geradoPor": "GitHub Actions",
-  "commit": "a2029f7b0782ff81c94cb944525773170b42bf08",
+  "commit": "0860a8c9c4351027630fd05211a7c2fb6df120e7",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -76,6 +76,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "adulto/insonia.json",
+      "id": "insonia-aguda",
+      "nome": "Insônia Aguda",
+      "categoria": "psiquiatrica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "adulto/sinusite-aguda.json",
       "id": "sinusite-aguda",
       "nome": "Sinusite Aguda",
@@ -132,5 +140,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 16
+  "totalArquivos": 17
 }
