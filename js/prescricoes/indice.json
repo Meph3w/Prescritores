@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:24:08.847Z",
+  "geradoEm": "2025-10-16T17:24:34.288Z",
   "geradoPor": "GitHub Actions",
-  "commit": "154af97415178fe892a8944a3e14d3d4616b7f2d",
+  "commit": "7ac256899fe045c82e1e4ab9ca2a056751bb407f",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -532,6 +532,14 @@
       "tipo": "sazonal"
     },
     {
+      "caminho": "sazonal/covid-leve.json",
+      "id": "covid-leve",
+      "nome": "COVID-19 - Caso Leve/Brando",
+      "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/dengue.json",
       "id": "dengue-aguda",
       "nome": "Dengue - Manejo Ambulatorial",
@@ -692,5 +700,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 86
+  "totalArquivos": 87
 }
