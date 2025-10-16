@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:23:47.408Z",
+  "geradoEm": "2025-10-16T17:24:08.847Z",
   "geradoPor": "GitHub Actions",
-  "commit": "c6928e9ada3596f3b48f3bc0b4fede756bee93b9",
+  "commit": "154af97415178fe892a8944a3e14d3d4616b7f2d",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -540,6 +540,14 @@
       "tipo": "sazonal"
     },
     {
+      "caminho": "sazonal/faringite-viral.json",
+      "id": "faringite-viral-sazonal",
+      "nome": "Faringite Viral Aguda",
+      "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/gastroenterite-aguda.json",
       "id": "gastroenterite-aguda",
       "nome": "Gastrointerite Aguda",
@@ -684,5 +692,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 85
+  "totalArquivos": 86
 }
