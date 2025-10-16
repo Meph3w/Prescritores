@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:01:15.781Z",
+  "geradoEm": "2025-10-16T17:01:30.854Z",
   "geradoPor": "GitHub Actions",
-  "commit": "81eed383ba1f220f6968f64948bac24baf1eb126",
+  "commit": "d1ffd055756c313fd6dd761fda3250ae43c1db87",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -308,6 +308,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "pediatria/constipacao-cronica.json",
+      "id": "constipacao-cronica-ped",
+      "nome": "Constipação Intestinal Crônica",
+      "categoria": "gastrointestinal",
+      "faixa": "pediatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "pediatria/dermatite-fraldas.json",
       "id": "dermatite-fraldas",
       "nome": "Dermatite das Fraldas",
@@ -452,5 +460,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 56
+  "totalArquivos": 57
 }
