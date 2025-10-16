@@ -1,0 +1,8 @@
+{
+    "id": "edema-agudo-pulmao",
+    "nome": "Edema Agudo de Pulmão",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Furosemida 40-80mg IV</p><p class='posologia'>1-2 ampolas IV (dose inicial)</p></div><div class='medicamento'><p class='dosagem'>Nitroglicerina 0,4mg SL</p><p class='posologia'>1 comp a cada 5min (máx 3 doses) se PA sistólica > 100mmHg</p></div><div class='medicamento'><p class='dosagem'>Morfina 2-4mg IV</p><p class='posologia'>Administração hospitalar (ansiedade/dispneia)</p></div><div class='medicamento'><p class='dosagem'>O2 6-8L/min</p><p class='posologia'>Máscara não-reinalante, PEEP se disponível</p></div><div class='alerta'><p><strong>🚨 TRANSPORTE URGENTE:</strong> posição sentada, monitorização contínua, acesso venoso</p><p><strong>📊 Monitorar:</strong> saturação, PA, frequência respiratória, diurese</p></div>"
+}
