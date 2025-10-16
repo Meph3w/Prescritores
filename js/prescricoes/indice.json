@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:58:24.715Z",
+  "geradoEm": "2025-10-16T16:58:41.375Z",
   "geradoPor": "GitHub Actions",
-  "commit": "10f2f993dfb7bb6d0eea6ecee492c21e8b512d26",
+  "commit": "a7e4169735da22cb99c56c8900d380a9a525db9c",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -268,6 +268,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "neonatal/conjuntivite-neonatal.json",
+      "id": "conjuntivite-neonatal",
+      "nome": "Conjuntivite Neonatal",
+      "categoria": "neonatal",
+      "faixa": "neonatal",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "neonatal/ictericia-neonatal.json",
       "id": "ictericia-neonatal",
       "nome": "Icterícia Neonatal",
@@ -388,5 +396,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 48
+  "totalArquivos": 49
 }
