@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:24:08.104Z",
+  "geradoEm": "2025-10-16T14:24:25.131Z",
   "geradoPor": "GitHub Actions",
-  "commit": "2d17ddd76799eadbf0ca9901a262104d38bfc4a4",
+  "commit": "f20dc5a1ec94a55cc26686d5ad244a61cc895166",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -24,6 +24,14 @@
       "id": "bronquite-aguda",
       "nome": "Bronquite Aguda",
       "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/candidíase-vaginal.json",
+      "id": "candidíase-vaginal",
+      "nome": "Candidíase Vulvovaginal",
+      "categoria": "ginecologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -188,5 +196,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 23
+  "totalArquivos": 24
 }
