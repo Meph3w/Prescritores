@@ -340,3 +340,32 @@ footer a:hover {
         justify-content: center;
     }
 }
+/* Adicione isso no final do seu style.css */
+
+/* Estilos específicos para embed */
+.embed-mode .container {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 100vh;
+}
+
+.embed-mode body {
+    background: transparent;
+}
+
+/* Detecta se está em iframe */
+@media (max-width: 768px) {
+    .embed-mode .container {
+        padding: 10px;
+    }
+    
+    .embed-mode .filtros {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Adiciona esta classe via JavaScript quando em iframe */
+if (window !== window.top) {
+    document.body.classList.add('embed-mode');
+}
