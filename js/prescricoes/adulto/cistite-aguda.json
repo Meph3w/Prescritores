@@ -1,0 +1,8 @@
+{
+    "id": "cistite-aguda",
+    "nome": "Cistite Aguda",
+    "categoria": "urologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Nitrofurantoína 100mg</p><p class='posologia'>1 comp 6/6h por 5-7 dias</p></div><div class='medicamento'><p class='dosagem'>Cefalexina 500mg</p><p class='posologia'>1 comp 6/6h por 7 dias (alternativa)</p></div><div class='medicamento'><p class='dosagem'>Fosfomicina 3g</p><p class='posologia'>1 dose única (opção single-dose)</p></div><div class='medicamento'><p class='dosagem'>Dipirona 500mg</p><p class='posologia'>1-2 comp 6/6h se disúria/dor</p></div><div class='alerta'><p><strong>🚨 Encaminhar se:</strong> febre, dor lombar, gestação, diabetes descompensado</p><p><strong>💡 Recomendações:</strong> hidratação abundante, esvaziamento frequente, higiene adequada</p></div>"
+}
