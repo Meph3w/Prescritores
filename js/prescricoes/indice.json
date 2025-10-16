@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:01:46.167Z",
+  "geradoEm": "2025-10-16T17:04:18.422Z",
   "geradoPor": "GitHub Actions",
-  "commit": "f6958d87e7235ba7723cdd624cce8fd011b1150d",
+  "commit": "9be36333b9b58d64ad96a6866bde59c69c4daec2",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -16,6 +16,14 @@
       "id": "anemia-ferropriva",
       "nome": "Anemia Ferropriva",
       "categoria": "hematologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/angina-estavel.json",
+      "id": "angina-estavel",
+      "nome": "Angina Estável",
+      "categoria": "cardiologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -468,5 +476,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 58
+  "totalArquivos": 59
 }
