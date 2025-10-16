@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:22:11.718Z",
+  "geradoEm": "2025-10-16T17:22:24.360Z",
   "geradoPor": "GitHub Actions",
-  "commit": "93fddba648beef6aabb598c4256e470cedb4e8e8",
+  "commit": "0caaf9b2804a3bccb5f2d4d731c442e2589ca7af",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -524,6 +524,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "sazonal/dengue.json",
+      "id": "dengue-aguda",
+      "nome": "Dengue - Manejo Ambulatorial",
+      "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "sazonal"
+    },
+    {
       "caminho": "sazonal/influenza.json",
       "id": "influenza-sazonal",
       "nome": "Influenza Sazonal",
@@ -660,5 +668,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 82
+  "totalArquivos": 83
 }
