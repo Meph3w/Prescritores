@@ -1,0 +1,8 @@
+{
+    "id": "obstrucao-nasal-lactente",
+    "nome": "Obstrução Nasal em Lactente",
+    "categoria": "respiratoria",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>SF 0,9% nasal</p><p class='posologia'>2-3 gotas/narina 4-6x/dia antes mamadas/sono</p></div><div class='medicamento'><p class='dosagem'>Aspirador nasal</p><p class='posologia'>Após instilação de SF</p></div><div class='medicamento'><p class='dosagem'>Umidificador ambiental</p><p class='posologia'>Manter umidade 40-60% no quarto</p></div><div class='alerta'><p><strong>🚨 Avaliar se:</strong> estridor, cianose, dificuldade alimentar, apneia</p><p><strong>💡 Posicionamento:</strong> elevar cabeceira 30°, decúbito dorsal</p><p><strong>⚠️ Evitar:</strong> descongestionantes nasais em < 2 anos</p></div>"
+}
