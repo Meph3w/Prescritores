@@ -1,0 +1,8 @@
+{
+    "id": "queimadura-solar-insolacao",
+    "nome": "Queimadura Solar - Insolação",
+    "categoria": "dermatologica",
+    "faixa": "adulto",
+    "tipo": "sazonal",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Hidratante tópico</p><p class='posologia'>Aplicar generosamente 3-4x/dia (pantenol, calamina)</p></div><div class='medicamento'><p class='dosagem'>Ibuprofeno 400-600mg</p><p class='posologia'>1 comp 8/8h por 2-3 dias (inflamação/dor)</p></div><div class='medicamento'><p class='dosagem'>Corticoide tópico suave</p><p class='posologia'>Hidrocortisona 1% creme 2x/dia (vermelhidão intensa)</p></div><div class='medicamento'><p class='dosagem'>Compressas frias</p><p class='posologia'>Aplicar 3-4x/dia por 15-20min</p></div><div class='alerta'><p><strong>🚨 Queimadura grave:</strong> bolhas extensas, febre, calafrios, desidratação</p><p><strong>💡 Prevenção:</strong> protetor solar FPS 30+, reaplicação, horários seguros</p></div>"
+}
