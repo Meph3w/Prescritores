@@ -1,0 +1,8 @@
+{
+    "id": "estomatite-herpetica",
+    "nome": "Estomatite Herpética",
+    "categoria": "infectologica",
+    "faixa": "pediatria",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Aciclovir suspensão 200mg/5ml</p><p class='posologia'>20mg/kg/dose 8/8h por 7 dias (iniciar precoce)</p></div><div class='medicamento'><p class='dosagem'>Paracetamol 15mg/kg/dose</p><p class='posologia'>6/6h (analgesia)</p></div><div class='medicamento'><p class='dosagem'>Ibuprofeno 10mg/kg/dose</p><p class='posologia'>8/8h (> 6 meses, anti-inflamatório)</p></div><div class='medicamento'><p class='dosagem'>Lidocaína viscosa 2%</p><p class='posologia'>Aplicar antes alimentação (uso limitado)</p></div><div class='alerta'><p><strong>🚨 INTERNAR SE:</strong> desidratação, recusa alimentar completa, imunossupressão</p><p><strong>💡 Alimentação:</strong> líquidos frios, alimentos pastosos, evitar ácidos</p></div>"
+}
