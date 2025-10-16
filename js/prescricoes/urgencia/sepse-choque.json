@@ -1,0 +1,8 @@
+{
+    "id": "sepse-choque-septico",
+    "nome": "Sepse/Choque Séptico",
+    "categoria": "infectologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Antibioticoterapia empírica</p><p class='posologia'>Iniciar em 1h (comunidade: Ceftriaxona 2g IV + Azitromicina 500mg IV)</p></div><div class='medicamento'><p class='dosagem'>Hidratação</p><p class='posologia'>Cristaloide 30ml/kg em 3h</p></div><div class='medicamento'><p class='dosagem'>Vasopressores</p><p class='posologia'>Noradrenalina 0,1-1mcg/kg/min (hipotensão refratária)</p></div><div class='alerta'><p><strong>🚨 PROTOCOLO SEPSE:</strong> Lactato, hemoculturas, antibioticoterapia precoce (direcionada), suporte hemodinâmico</p><p><strong>📊 ESCALA SOFA/qSOFA:</strong> orientar gravidade e prognóstico</p></div>"
+}
