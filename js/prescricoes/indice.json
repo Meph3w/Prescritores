@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:10:51.004Z",
+  "geradoEm": "2025-10-16T17:11:04.275Z",
   "geradoPor": "GitHub Actions",
-  "commit": "73c9b042e138fe844e1bb532fae43a3e74e077cd",
+  "commit": "b426c6cc48e2d84a5befa6ab3be0faa3f867b1b9",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -32,6 +32,14 @@
       "id": "anticoncepcao-inicial",
       "nome": "Anticoncepção Oral - Início",
       "categoria": "ginecologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/artrite-reumatoide.json",
+      "id": "artrite-reumatoide",
+      "nome": "Artrite Reumatoide",
+      "categoria": "reumatologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -588,5 +596,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 73
+  "totalArquivos": 74
 }
