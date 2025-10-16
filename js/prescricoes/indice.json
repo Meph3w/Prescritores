@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:09:43.845Z",
+  "geradoEm": "2025-10-16T17:10:18.133Z",
   "geradoPor": "GitHub Actions",
-  "commit": "24272a6bebc4d9b4101fdfa13a8cf171deaca153",
+  "commit": "5ccf4104ac6286375d3b0259b07c12491e6eb428",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -316,6 +316,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "geriatria/sindrome-imobilidade.json",
+      "id": "sindrome-imobilidade",
+      "nome": "Síndrome da Imobilidade no Idoso",
+      "categoria": "geriatrica",
+      "faixa": "geriatria",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "neonatal/conjuntivite-neonatal.json",
       "id": "conjuntivite-neonatal",
       "nome": "Conjuntivite Neonatal",
@@ -564,5 +572,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 70
+  "totalArquivos": 71
 }
