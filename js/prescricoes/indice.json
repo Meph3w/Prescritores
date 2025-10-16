@@ -1,13 +1,21 @@
 {
-  "geradoEm": "2025-10-16T14:11:59.975Z",
+  "geradoEm": "2025-10-16T14:12:20.440Z",
   "geradoPor": "GitHub Actions",
-  "commit": "01b3805f03d5f77076c580d933ec9f3a69b19aac",
+  "commit": "7df6800d15c9b9245a40a045ad35e4e986fa9b8d",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
       "id": "amigdalite-bacteriana",
       "nome": "Amigdalite Bacteriana",
       "categoria": "infectologica",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/bronquite-aguda.json",
+      "id": "bronquite-aguda",
+      "nome": "Bronquite Aguda",
+      "categoria": "respiratoria",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -92,5 +100,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 11
+  "totalArquivos": 12
 }
