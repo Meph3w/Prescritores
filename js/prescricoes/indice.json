@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T16:25:30.103Z",
+  "geradoEm": "2025-10-16T16:54:17.629Z",
   "geradoPor": "GitHub Actions",
-  "commit": "8cce309fe4b83fc6a2b290dd74f0fdb4379c98ba",
+  "commit": "180bce6856399b6431b1c0da754ce04a50b019c0",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -188,6 +188,14 @@
       "tipo": "urgencia"
     },
     {
+      "caminho": "adulto/pneumonia-comunitaria.json",
+      "id": "pneumonia-comunitaria",
+      "nome": "Pneumonia Comunitária",
+      "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
       "caminho": "adulto/sinusite-aguda.json",
       "id": "sinusite-aguda",
       "nome": "Sinusite Aguda",
@@ -300,5 +308,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 37
+  "totalArquivos": 38
 }
