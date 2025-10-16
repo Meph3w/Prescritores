@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:09:31.141Z",
+  "geradoEm": "2025-10-16T17:09:43.845Z",
   "geradoPor": "GitHub Actions",
-  "commit": "0d7a81c656767c934604b572b80693bd5a2dc476",
+  "commit": "24272a6bebc4d9b4101fdfa13a8cf171deaca153",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -292,6 +292,14 @@
       "tipo": "consulta"
     },
     {
+      "caminho": "geriatria/delirium-agudo.json",
+      "id": "delirium-agudo",
+      "nome": "Delirium Agudo no Idoso",
+      "categoria": "geriatrica",
+      "faixa": "geriatria",
+      "tipo": "urgencia"
+    },
+    {
       "caminho": "geriatria/demencia.json",
       "id": "demencia-alzheimer",
       "nome": "Demência/Doença de Alzheimer",
@@ -556,5 +564,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 69
+  "totalArquivos": 70
 }
