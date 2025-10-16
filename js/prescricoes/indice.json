@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T14:27:10.996Z",
+  "geradoEm": "2025-10-16T14:27:24.121Z",
   "geradoPor": "GitHub Actions",
-  "commit": "e5749ffcc63101bdcecf1487ade05ce330761f88",
+  "commit": "cd909f39cba79ae01139732332304d0d0796802b",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -128,6 +128,14 @@
       "id": "dpoc-estavel",
       "nome": "DPOC Estável",
       "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/enxaqueca-aguda.json",
+      "id": "enxaqueca-aguda",
+      "nome": "Crise de Enxaqueca",
+      "categoria": "neurologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -268,5 +276,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 33
+  "totalArquivos": 34
 }
