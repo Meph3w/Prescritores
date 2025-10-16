@@ -1,0 +1,8 @@
+{
+    "id": "sindrome-coronariana-aguda",
+    "nome": "Síndrome Coronariana Aguda",
+    "categoria": "cardiologica",
+    "faixa": "adulto",
+    "tipo": "urgencia",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>AAS 100-300mg</p><p class='posologia'>Mastigar 1-2 comprimidos imediatamente</p></div><div class='medicamento'><p class='dosagem'>Clopidogrel 300mg</p><p class='posologia'>1 comp dose de ataque (associar ao AAS)</p></div><div class='medicamento'><p class='dosagem'>Nitroglicerina 0,4mg SL</p><p class='posologia'>1 comp a cada 5min (máx 3 doses)</p></div><div class='medicamento'><p class='dosagem'>Morfina 5-10mg IV</p><p class='posologia'>Administração hospitalar (dor refratária)</p></div><div class='alerta'><p><strong>🚨 TRANSPORTE URGENTE:</strong> manter monitorização, O2 se sat < 90%, acesso venoso</p><p><strong>📊 ECG:</strong> realizar imediatamente, enviar com paciente</p></div>"
+}
