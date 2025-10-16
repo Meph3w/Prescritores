@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:08:04.179Z",
+  "geradoEm": "2025-10-16T17:08:20.415Z",
   "geradoPor": "GitHub Actions",
-  "commit": "c766344c18593895837c2b2b3dd681ce871392fc",
+  "commit": "c0f54c7839c242380e71aebed07be6036b5615f2",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -128,6 +128,14 @@
       "id": "doenca-diverticular",
       "nome": "Doença Diverticular Sintomática",
       "categoria": "gastrointestinal",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/doenca-parkinson.json",
+      "id": "doenca-parkinson",
+      "nome": "Doença de Parkinson",
+      "categoria": "neurologica",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -524,5 +532,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 65
+  "totalArquivos": 66
 }
