@@ -1,0 +1,8 @@
+{
+    "id": "anticoncepcao-inicial",
+    "nome": "Anticoncepção Oral - Início",
+    "categoria": "ginecologica",
+    "faixa": "adulto",
+    "tipo": "consulta",
+    "conteudo": "<div class='medicamento'><p class='dosagem'>Etinilestradiol 30mcg + Levonorgestrel 150mcg</p><p class='posologia'>1 comp/dia por 21 dias, pausa 7 dias</p></div><div class='medicamento'><p class='dosagem'>Drospirenona 3mg + Etinilestradiol 30mcg</p><p class='posologia'>1 comp/dia (alternativa com menor retenção hídrica)</p></div><div class='medicamento'><p class='dosagem'>Desogestrel 75mcg</p><p class='posologia'>1 comp/dia contínuo (minipílula, lactação)</p></div><div class='alerta'><p><strong>⚠️ Contraindicado se:</strong> HAS, enxaqueca com aura, trombofilia, tabagismo > 35 anos</p><p><strong>💡 Orientar:</strong> uso rigoroso, esquecimento, efeitos adversos iniciais</p></div>"
+}
