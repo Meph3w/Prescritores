@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2025-10-16T17:11:04.275Z",
+  "geradoEm": "2025-10-16T17:11:26.833Z",
   "geradoPor": "GitHub Actions",
-  "commit": "b426c6cc48e2d84a5befa6ab3be0faa3f867b1b9",
+  "commit": "ae93d6eedd2598dcf215dd1f66cf798f83e0ce9e",
   "arquivos": [
     {
       "caminho": "adulto/amigdalite.json",
@@ -288,6 +288,14 @@
       "id": "sinusite-aguda",
       "nome": "Sinusite Aguda",
       "categoria": "respiratoria",
+      "faixa": "adulto",
+      "tipo": "consulta"
+    },
+    {
+      "caminho": "adulto/tireoidite-hashimoto.json",
+      "id": "tireoidite-hashimoto",
+      "nome": "Tireoidite de Hashimoto",
+      "categoria": "endocrina",
       "faixa": "adulto",
       "tipo": "consulta"
     },
@@ -596,5 +604,5 @@
       "tipo": "urgencia"
     }
   ],
-  "totalArquivos": 74
+  "totalArquivos": 75
 }
